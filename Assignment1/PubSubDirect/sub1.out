@@ -1,0 +1,32 @@
+2023-02-09 10:40:11,957 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-02-09 10:40:11,957 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-02-09 10:40:11,960 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-02-09 10:40:11,960 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-02-09 10:40:11,960 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - **********************************
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - ------------------------------
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO -      Name: sub1
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO -      Num Topics: 9
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO -      TopicList: ['location', 'pressure', 'sound', 'temperature', 'weather', 'light', 'humidity', 'altitude', 'airquality']
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO -      Iterations: 1000
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO -      Frequency: 1
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - **********************************
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - SubscriberMW::register
+2023-02-09 10:40:11,961 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now now wait for reply
+2023-02-09 10:40:11,962 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-02-09 10:40:11,962 - SubscriberAppln - INFO - SubscriberAppln::register_response
+2023-02-09 10:40:11,962 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-02-09 10:40:11,962 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-02-09 10:40:11,962 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-02-09 10:40:11,962 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-02-09 10:40:11,963 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-02-09 10:40:11,963 - SubscriberAppln - INFO - SubscriberAppln::driver - System ready; let's connect to discovery for getting publisher information!!
+2023-02-09 10:40:11,963 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-02-09 10:40:11,963 - SubscriberAppln - INFO - SubscriberMW::handle_reply
