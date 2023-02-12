@@ -12,3 +12,6 @@ python3 SubscriberAppln.py --name='sub2' --num_topics=2 --port=5580 > sub2.out 2
 ```
 
 Two subscribers will receive information from two publishers.
+
+
+![](./img/direct.png)
