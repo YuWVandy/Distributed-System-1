@@ -1,0 +1,37 @@
+2023-02-09 10:40:11,955 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-02-09 10:40:11,955 - DiscoveryAppln - DEBUG - Main: parse command line arguments
+2023-02-09 10:40:11,958 - DiscoveryAppln - DEBUG - Main: resetting log level to 20
+2023-02-09 10:40:11,958 - DiscoveryAppln - INFO - DiscoveryAppln::configure
+2023-02-09 10:40:11,958 - DiscoveryAppln - INFO - DiscoveryMW::configure
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO - DiscoveryMW::configure completed
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO - DiscoveryAppln::configure - configuration complete
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO - DiscoveryAppln::driver
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO - **********************************
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO - DiscoveryAppln::dump
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO - ------------------------------
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO -      Name: dis1
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO -      Lookup: Centralized
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO -      # of Pub: None
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO -      # of Sub: None
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO -      Iterations: 1000
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO -      Frequency: 1
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO - **********************************
+2023-02-09 10:40:11,959 - DiscoveryAppln - INFO - DiscoveryMW::event_loop - run the event loop
+2023-02-09 10:40:11,961 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-02-09 10:40:11,961 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-02-09 10:40:11,961 - DiscoveryAppln - INFO - DiscoverMW:: register success - notification sent
+2023-02-09 10:40:11,961 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-02-09 10:40:11,961 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-02-09 10:40:11,961 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-02-09 10:40:11,962 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-02-09 10:40:11,962 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-02-09 10:40:11,962 - DiscoveryAppln - INFO - DiscoverMW:: register success - notification sent
+2023-02-09 10:40:11,962 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-02-09 10:40:11,962 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-02-09 10:40:11,962 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-02-09 10:40:11,963 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-02-09 10:40:11,963 - DiscoveryAppln - INFO - DiscoveryMW::receiving subscriber's interested topics
+2023-02-09 10:40:11,963 - DiscoveryAppln - INFO - DiscoverMW:: LookupPubByTopicResp - notification sent
+2023-02-09 10:40:21,971 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-02-09 10:40:21,971 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-02-09 10:40:21,971 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
