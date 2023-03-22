@@ -1,0 +1,60 @@
+2023-03-22 15:36:15,034 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:15,034 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:15,038 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:15,038 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-03-22 15:36:15,038 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-03-22 15:36:15,038 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - ------------------------------
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO -      Name: sub12
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO -      TopicList: ['weather']
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO -      Frequency: 1
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - SubscriberMW::register
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - 2
+2023-03-22 15:36:15,039 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now now wait for reply
+2023-03-22 15:36:15,294 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,294 - SubscriberAppln - INFO - SubscriberAppln::register_response
+2023-03-22 15:36:15,294 - SubscriberAppln - INFO - SubscriberAppln::register_response - registration is a success
+2023-03-22 15:36:15,294 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,294 - SubscriberAppln - INFO - 1679517375.2946045
+2023-03-22 15:36:15,294 - SubscriberAppln - INFO - 63.294604778289795
+2023-03-22 15:36:15,294 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,294 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:15,294 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,886 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,886 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:15,886 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:25,893 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:25,893 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:25,893 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,906 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:25,906 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:25,906 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:35,913 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:35,913 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:35,913 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,927 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:35,927 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:35,927 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:45,937 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:45,937 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:45,937 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:45,953 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:45,953 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:45,953 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:55,961 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:55,961 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:55,961 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:55,975 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:55,975 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:55,975 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again

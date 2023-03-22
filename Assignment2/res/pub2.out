@@ -1,0 +1,83 @@
+2023-03-22 15:36:14,892 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,893 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,897 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,897 - PublisherAppln - INFO - PublisherAppln::configure
+2023-03-22 15:36:14,898 - PublisherAppln - INFO - PublisherMW::configure
+2023-03-22 15:36:14,898 - PublisherAppln - INFO - PublisherMW::configure completed
+2023-03-22 15:36:14,898 - PublisherAppln - INFO - PublisherAppln::configure - configuration complete
+2023-03-22 15:36:14,898 - PublisherAppln - INFO - PublisherAppln::driver
+2023-03-22 15:36:14,898 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,898 - PublisherAppln - INFO - PublisherAppln::dump
+2023-03-22 15:36:14,925 - PublisherAppln - INFO - ------------------------------
+2023-03-22 15:36:14,925 - PublisherAppln - INFO -      Name: pub2
+2023-03-22 15:36:14,925 - PublisherAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,925 - PublisherAppln - INFO -      Dissemination: Direct
+2023-03-22 15:36:14,925 - PublisherAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,925 - PublisherAppln - INFO -      TopicList: ['temperature']
+2023-03-22 15:36:14,925 - PublisherAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,925 - PublisherAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,925 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,926 - PublisherAppln - INFO - PublisherMW::event_loop - run the event loop
+2023-03-22 15:36:14,926 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:14,926 - PublisherAppln - INFO - PublisherMW::register
+2023-03-22 15:36:14,926 - PublisherAppln - INFO - PublisherMW::register - sent register message and now wait for reply
+2023-03-22 15:36:15,220 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,220 - PublisherAppln - INFO - PublisherAppln::register_response
+2023-03-22 15:36:15,220 - PublisherAppln - INFO - PublisherAppln::register_response - registration is a success
+2023-03-22 15:36:15,220 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,220 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:15,220 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:15,221 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,596 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,596 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:15,596 - PublisherAppln - INFO - PublisherAppln::driver - System ready; let's go!!
+2023-03-22 15:36:15,596 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,596 - PublisherAppln - INFO - PublisherAppln::invoke_operation - start Disseminating
+2023-03-22 15:36:15,596 - PublisherAppln - INFO - temperature:-70:1679517375.5968523
+2023-03-22 15:36:16,597 - PublisherAppln - INFO - temperature:46:1679517376.5976727
+2023-03-22 15:36:17,598 - PublisherAppln - INFO - temperature:-34:1679517377.5989213
+2023-03-22 15:36:18,600 - PublisherAppln - INFO - temperature:27:1679517378.600124
+2023-03-22 15:36:19,601 - PublisherAppln - INFO - temperature:47:1679517379.601295
+2023-03-22 15:36:20,601 - PublisherAppln - INFO - temperature:-69:1679517380.6016235
+2023-03-22 15:36:21,601 - PublisherAppln - INFO - temperature:57:1679517381.6018708
+2023-03-22 15:36:22,603 - PublisherAppln - INFO - temperature:-7:1679517382.603003
+2023-03-22 15:36:23,604 - PublisherAppln - INFO - temperature:64:1679517383.604173
+2023-03-22 15:36:24,605 - PublisherAppln - INFO - temperature:-69:1679517384.605353
+2023-03-22 15:36:25,606 - PublisherAppln - INFO - temperature:-42:1679517385.6066751
+2023-03-22 15:36:26,607 - PublisherAppln - INFO - temperature:-22:1679517386.6078527
+2023-03-22 15:36:27,609 - PublisherAppln - INFO - temperature:56:1679517387.6091564
+2023-03-22 15:36:28,609 - PublisherAppln - INFO - temperature:4:1679517388.6096215
+2023-03-22 15:36:29,610 - PublisherAppln - INFO - temperature:-52:1679517389.610869
+2023-03-22 15:36:30,612 - PublisherAppln - INFO - temperature:-94:1679517390.6120768
+2023-03-22 15:36:31,613 - PublisherAppln - INFO - temperature:-72:1679517391.613332
+2023-03-22 15:36:32,613 - PublisherAppln - INFO - temperature:-23:1679517392.6137693
+2023-03-22 15:36:33,615 - PublisherAppln - INFO - temperature:-27:1679517393.614972
+2023-03-22 15:36:34,616 - PublisherAppln - INFO - temperature:-85:1679517394.616167
+2023-03-22 15:36:35,617 - PublisherAppln - INFO - temperature:43:1679517395.6173038
+2023-03-22 15:36:36,617 - PublisherAppln - INFO - temperature:2:1679517396.6176286
+2023-03-22 15:36:37,618 - PublisherAppln - INFO - temperature:56:1679517397.618944
+2023-03-22 15:36:38,620 - PublisherAppln - INFO - temperature:95:1679517398.6201568
+2023-03-22 15:36:39,621 - PublisherAppln - INFO - temperature:71:1679517399.621675
+2023-03-22 15:36:40,622 - PublisherAppln - INFO - temperature:35:1679517400.6228821
+2023-03-22 15:36:41,624 - PublisherAppln - INFO - temperature:82:1679517401.6240232
+2023-03-22 15:36:42,625 - PublisherAppln - INFO - temperature:-63:1679517402.6251917
+2023-03-22 15:36:43,625 - PublisherAppln - INFO - temperature:36:1679517403.6256688
+2023-03-22 15:36:44,626 - PublisherAppln - INFO - temperature:37:1679517404.6268082
+2023-03-22 15:36:45,627 - PublisherAppln - INFO - temperature:-91:1679517405.6279593
+2023-03-22 15:36:46,629 - PublisherAppln - INFO - temperature:62:1679517406.6291988
+2023-03-22 15:36:47,630 - PublisherAppln - INFO - temperature:57:1679517407.6307552
+2023-03-22 15:36:48,632 - PublisherAppln - INFO - temperature:-1:1679517408.6320853
+2023-03-22 15:36:49,633 - PublisherAppln - INFO - temperature:31:1679517409.6333444
+2023-03-22 15:36:50,633 - PublisherAppln - INFO - temperature:-78:1679517410.633631
+2023-03-22 15:36:51,634 - PublisherAppln - INFO - temperature:-74:1679517411.6348345
+2023-03-22 15:36:52,636 - PublisherAppln - INFO - temperature:-27:1679517412.635986
+2023-03-22 15:36:53,637 - PublisherAppln - INFO - temperature:-39:1679517413.6371293
+2023-03-22 15:36:54,637 - PublisherAppln - INFO - temperature:69:1679517414.637689
+2023-03-22 15:36:55,639 - PublisherAppln - INFO - temperature:-18:1679517415.639044
+2023-03-22 15:36:56,640 - PublisherAppln - INFO - temperature:10:1679517416.6402333
+2023-03-22 15:36:57,641 - PublisherAppln - INFO - temperature:-97:1679517417.6413827
+2023-03-22 15:36:58,641 - PublisherAppln - INFO - temperature:-71:1679517418.6416173
+2023-03-22 15:36:59,642 - PublisherAppln - INFO - temperature:73:1679517419.642799
+2023-03-22 15:37:00,644 - PublisherAppln - INFO - temperature:12:1679517420.6441498
+2023-03-22 15:37:01,645 - PublisherAppln - INFO - temperature:98:1679517421.645323
+2023-03-22 15:37:02,645 - PublisherAppln - INFO - temperature:40:1679517422.645634

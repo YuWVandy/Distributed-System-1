@@ -1,0 +1,84 @@
+2023-03-22 15:36:14,812 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,812 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,816 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,820 - PublisherAppln - INFO - PublisherAppln::configure
+2023-03-22 15:36:14,821 - PublisherAppln - INFO - PublisherMW::configure
+2023-03-22 15:36:14,827 - PublisherAppln - INFO - PublisherMW::configure completed
+2023-03-22 15:36:14,827 - PublisherAppln - INFO - PublisherAppln::configure - configuration complete
+2023-03-22 15:36:14,828 - PublisherAppln - INFO - PublisherAppln::driver
+2023-03-22 15:36:14,828 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,828 - PublisherAppln - INFO - PublisherAppln::dump
+2023-03-22 15:36:14,828 - PublisherAppln - INFO - ------------------------------
+2023-03-22 15:36:14,828 - PublisherAppln - INFO -      Name: pub3
+2023-03-22 15:36:14,828 - PublisherAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,828 - PublisherAppln - INFO -      Dissemination: Direct
+2023-03-22 15:36:14,828 - PublisherAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,828 - PublisherAppln - INFO -      TopicList: ['airquality']
+2023-03-22 15:36:14,828 - PublisherAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,828 - PublisherAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,828 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,828 - PublisherAppln - INFO - PublisherMW::event_loop - run the event loop
+2023-03-22 15:36:14,828 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:14,828 - PublisherAppln - INFO - PublisherMW::register
+2023-03-22 15:36:14,829 - PublisherAppln - INFO - PublisherMW::register - sent register message and now wait for reply
+2023-03-22 15:36:15,167 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,168 - PublisherAppln - INFO - PublisherAppln::register_response
+2023-03-22 15:36:15,168 - PublisherAppln - INFO - PublisherAppln::register_response - registration is a success
+2023-03-22 15:36:15,168 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,168 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:15,168 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:15,168 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,409 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,410 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:15,410 - PublisherAppln - INFO - PublisherAppln::driver - System ready; let's go!!
+2023-03-22 15:36:15,410 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,410 - PublisherAppln - INFO - PublisherAppln::invoke_operation - start Disseminating
+2023-03-22 15:36:15,410 - PublisherAppln - INFO - airquality:poor:1679517375.4102745
+2023-03-22 15:36:16,411 - PublisherAppln - INFO - airquality:poor:1679517376.411373
+2023-03-22 15:36:17,412 - PublisherAppln - INFO - airquality:good:1679517377.4125443
+2023-03-22 15:36:18,413 - PublisherAppln - INFO - airquality:smog:1679517378.4138143
+2023-03-22 15:36:19,415 - PublisherAppln - INFO - airquality:good:1679517379.415011
+2023-03-22 15:36:20,416 - PublisherAppln - INFO - airquality:poor:1679517380.4161909
+2023-03-22 15:36:21,417 - PublisherAppln - INFO - airquality:poor:1679517381.4173307
+2023-03-22 15:36:22,418 - PublisherAppln - INFO - airquality:poor:1679517382.4182363
+2023-03-22 15:36:23,419 - PublisherAppln - INFO - airquality:poor:1679517383.4193816
+2023-03-22 15:36:24,420 - PublisherAppln - INFO - airquality:poor:1679517384.419983
+2023-03-22 15:36:25,421 - PublisherAppln - INFO - airquality:smog:1679517385.421272
+2023-03-22 15:36:26,421 - PublisherAppln - INFO - airquality:good:1679517386.421659
+2023-03-22 15:36:27,422 - PublisherAppln - INFO - airquality:smog:1679517387.4223335
+2023-03-22 15:36:28,423 - PublisherAppln - INFO - airquality:smog:1679517388.423506
+2023-03-22 15:36:29,424 - PublisherAppln - INFO - airquality:good:1679517389.4246511
+2023-03-22 15:36:30,425 - PublisherAppln - INFO - airquality:smog:1679517390.4256225
+2023-03-22 15:36:31,426 - PublisherAppln - INFO - airquality:smog:1679517391.4268582
+2023-03-22 15:36:32,428 - PublisherAppln - INFO - airquality:smog:1679517392.4282157
+2023-03-22 15:36:33,429 - PublisherAppln - INFO - airquality:good:1679517393.4293437
+2023-03-22 15:36:34,429 - PublisherAppln - INFO - airquality:good:1679517394.42962
+2023-03-22 15:36:35,430 - PublisherAppln - INFO - airquality:good:1679517395.43074
+2023-03-22 15:36:36,431 - PublisherAppln - INFO - airquality:good:1679517396.4318483
+2023-03-22 15:36:37,433 - PublisherAppln - INFO - airquality:smog:1679517397.433009
+2023-03-22 15:36:38,433 - PublisherAppln - INFO - airquality:good:1679517398.4336238
+2023-03-22 15:36:39,434 - PublisherAppln - INFO - airquality:good:1679517399.434767
+2023-03-22 15:36:40,436 - PublisherAppln - INFO - airquality:good:1679517400.436002
+2023-03-22 15:36:41,437 - PublisherAppln - INFO - airquality:good:1679517401.437363
+2023-03-22 15:36:42,437 - PublisherAppln - INFO - airquality:good:1679517402.4376264
+2023-03-22 15:36:43,438 - PublisherAppln - INFO - airquality:poor:1679517403.438837
+2023-03-22 15:36:44,440 - PublisherAppln - INFO - airquality:good:1679517404.4400718
+2023-03-22 15:36:45,441 - PublisherAppln - INFO - airquality:poor:1679517405.4412534
+2023-03-22 15:36:46,441 - PublisherAppln - INFO - airquality:poor:1679517406.4417043
+2023-03-22 15:36:47,442 - PublisherAppln - INFO - airquality:smog:1679517407.4429553
+2023-03-22 15:36:48,444 - PublisherAppln - INFO - airquality:smog:1679517408.4441044
+2023-03-22 15:36:49,445 - PublisherAppln - INFO - airquality:good:1679517409.4452705
+2023-03-22 15:36:50,446 - PublisherAppln - INFO - airquality:smog:1679517410.4465427
+2023-03-22 15:36:51,447 - PublisherAppln - INFO - airquality:smog:1679517411.4478168
+2023-03-22 15:36:52,449 - PublisherAppln - INFO - airquality:poor:1679517412.4489994
+2023-03-22 15:36:53,449 - PublisherAppln - INFO - airquality:poor:1679517413.449621
+2023-03-22 15:36:54,450 - PublisherAppln - INFO - airquality:poor:1679517414.4507911
+2023-03-22 15:36:55,451 - PublisherAppln - INFO - airquality:good:1679517415.4519367
+2023-03-22 15:36:56,453 - PublisherAppln - INFO - airquality:smog:1679517416.4531343
+2023-03-22 15:36:57,453 - PublisherAppln - INFO - airquality:good:1679517417.453695
+2023-03-22 15:36:58,454 - PublisherAppln - INFO - airquality:poor:1679517418.4549713
+2023-03-22 15:36:59,456 - PublisherAppln - INFO - airquality:poor:1679517419.4561162
+2023-03-22 15:37:00,457 - PublisherAppln - INFO - airquality:smog:1679517420.4572732
+2023-03-22 15:37:01,457 - PublisherAppln - INFO - airquality:poor:1679517421.4576283
+2023-03-22 15:37:02,458 - PublisherAppln - INFO - airquality:smog:1679517422.4588182
+2023-03-22 15:37:03,460 - PublisherAppln - INFO - airquality:poor:1679517423.4599977

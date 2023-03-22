@@ -1,0 +1,119 @@
+2023-03-22 15:36:15,026 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:15,026 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:15,030 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:15,030 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO - ------------------------------
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO -      Name: sub8
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO -      TopicList: ['temperature']
+2023-03-22 15:36:15,031 - SubscriberAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:15,032 - SubscriberAppln - INFO -      Frequency: 1
+2023-03-22 15:36:15,032 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,032 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-03-22 15:36:15,032 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,032 - SubscriberAppln - INFO - SubscriberMW::register
+2023-03-22 15:36:15,032 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,032 - SubscriberAppln - INFO - 2
+2023-03-22 15:36:15,032 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now now wait for reply
+2023-03-22 15:36:15,278 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,278 - SubscriberAppln - INFO - SubscriberAppln::register_response
+2023-03-22 15:36:15,278 - SubscriberAppln - INFO - SubscriberAppln::register_response - registration is a success
+2023-03-22 15:36:15,278 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,278 - SubscriberAppln - INFO - 1679517375.2783973
+2023-03-22 15:36:15,278 - SubscriberAppln - INFO - 63.27839779853821
+2023-03-22 15:36:15,278 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,278 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:15,278 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,839 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,839 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:15,839 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:25,849 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:25,849 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:25,849 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,865 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:25,865 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:25,865 - SubscriberAppln - INFO - SubscriberAppln::driver - System ready; let's connect to discovery for getting publisher information!!
+2023-03-22 15:36:25,865 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:25,865 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - start getting publisher information
+2023-03-22 15:36:25,865 - SubscriberAppln - INFO - ['temperature']
+2023-03-22 15:36:25,865 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - Find publisher completed
+2023-03-22 15:36:25,867 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:25,867 - SubscriberAppln - INFO - SubscriberMW::try to set the topic filtering
+2023-03-22 15:36:25,868 - SubscriberAppln - INFO - SubscriberMW::connect to publisher
+2023-03-22 15:36:26,608 - SubscriberAppln - INFO - Topc:temperature	Content:-22	Time_interval:0.00042557716369628906
+2023-03-22 15:36:26,641 - SubscriberAppln - INFO - Topc:temperature	Content:-28	Time_interval:0.00022554397583007812
+2023-03-22 15:36:27,609 - SubscriberAppln - INFO - Topc:temperature	Content:56	Time_interval:0.0002601146697998047
+2023-03-22 15:36:27,641 - SubscriberAppln - INFO - Topc:temperature	Content:-5	Time_interval:0.0002562999725341797
+2023-03-22 15:36:28,609 - SubscriberAppln - INFO - Topc:temperature	Content:4	Time_interval:0.0002586841583251953
+2023-03-22 15:36:28,643 - SubscriberAppln - INFO - Topc:temperature	Content:64	Time_interval:0.0002644062042236328
+2023-03-22 15:36:29,611 - SubscriberAppln - INFO - Topc:temperature	Content:-52	Time_interval:0.0002970695495605469
+2023-03-22 15:36:29,644 - SubscriberAppln - INFO - Topc:temperature	Content:82	Time_interval:0.00025272369384765625
+2023-03-22 15:36:30,612 - SubscriberAppln - INFO - Topc:temperature	Content:-94	Time_interval:0.00021576881408691406
+2023-03-22 15:36:30,645 - SubscriberAppln - INFO - Topc:temperature	Content:24	Time_interval:0.00019121170043945312
+2023-03-22 15:36:31,613 - SubscriberAppln - INFO - Topc:temperature	Content:-72	Time_interval:0.00024962425231933594
+2023-03-22 15:36:31,646 - SubscriberAppln - INFO - Topc:temperature	Content:-57	Time_interval:0.0002589225769042969
+2023-03-22 15:36:32,614 - SubscriberAppln - INFO - Topc:temperature	Content:-23	Time_interval:0.00022864341735839844
+2023-03-22 15:36:32,647 - SubscriberAppln - INFO - Topc:temperature	Content:-56	Time_interval:0.00027179718017578125
+2023-03-22 15:36:33,615 - SubscriberAppln - INFO - Topc:temperature	Content:-27	Time_interval:0.00026226043701171875
+2023-03-22 15:36:33,648 - SubscriberAppln - INFO - Topc:temperature	Content:91	Time_interval:0.0002689361572265625
+2023-03-22 15:36:34,616 - SubscriberAppln - INFO - Topc:temperature	Content:-85	Time_interval:0.0002384185791015625
+2023-03-22 15:36:34,649 - SubscriberAppln - INFO - Topc:temperature	Content:-62	Time_interval:0.00023412704467773438
+2023-03-22 15:36:35,617 - SubscriberAppln - INFO - Topc:temperature	Content:43	Time_interval:0.0001537799835205078
+2023-03-22 15:36:35,650 - SubscriberAppln - INFO - Topc:temperature	Content:-78	Time_interval:0.0002181529998779297
+2023-03-22 15:36:36,617 - SubscriberAppln - INFO - Topc:temperature	Content:2	Time_interval:0.00024175643920898438
+2023-03-22 15:36:36,651 - SubscriberAppln - INFO - Topc:temperature	Content:-75	Time_interval:0.0002689361572265625
+2023-03-22 15:36:37,619 - SubscriberAppln - INFO - Topc:temperature	Content:56	Time_interval:0.00030159950256347656
+2023-03-22 15:36:37,652 - SubscriberAppln - INFO - Topc:temperature	Content:33	Time_interval:0.00029397010803222656
+2023-03-22 15:36:38,620 - SubscriberAppln - INFO - Topc:temperature	Content:95	Time_interval:0.0007269382476806641
+2023-03-22 15:36:38,653 - SubscriberAppln - INFO - Topc:temperature	Content:-21	Time_interval:0.0002779960632324219
+2023-03-22 15:36:39,621 - SubscriberAppln - INFO - Topc:temperature	Content:71	Time_interval:0.00026297569274902344
+2023-03-22 15:36:39,655 - SubscriberAppln - INFO - Topc:temperature	Content:19	Time_interval:0.00027060508728027344
+2023-03-22 15:36:40,623 - SubscriberAppln - INFO - Topc:temperature	Content:35	Time_interval:0.00023031234741210938
+2023-03-22 15:36:40,656 - SubscriberAppln - INFO - Topc:temperature	Content:-48	Time_interval:0.00021696090698242188
+2023-03-22 15:36:41,624 - SubscriberAppln - INFO - Topc:temperature	Content:82	Time_interval:0.00019860267639160156
+2023-03-22 15:36:41,657 - SubscriberAppln - INFO - Topc:temperature	Content:44	Time_interval:0.00025010108947753906
+2023-03-22 15:36:42,625 - SubscriberAppln - INFO - Topc:temperature	Content:-63	Time_interval:0.0002014636993408203
+2023-03-22 15:36:42,657 - SubscriberAppln - INFO - Topc:temperature	Content:84	Time_interval:0.00020694732666015625
+2023-03-22 15:36:43,625 - SubscriberAppln - INFO - Topc:temperature	Content:36	Time_interval:0.0002486705780029297
+2023-03-22 15:36:43,659 - SubscriberAppln - INFO - Topc:temperature	Content:-3	Time_interval:0.00021696090698242188
+2023-03-22 15:36:44,627 - SubscriberAppln - INFO - Topc:temperature	Content:37	Time_interval:0.00026869773864746094
+2023-03-22 15:36:44,660 - SubscriberAppln - INFO - Topc:temperature	Content:32	Time_interval:0.00025534629821777344
+2023-03-22 15:36:45,628 - SubscriberAppln - INFO - Topc:temperature	Content:-91	Time_interval:0.00018310546875
+2023-03-22 15:36:45,661 - SubscriberAppln - INFO - Topc:temperature	Content:-9	Time_interval:0.00023865699768066406
+2023-03-22 15:36:46,630 - SubscriberAppln - INFO - Topc:temperature	Content:62	Time_interval:0.0008571147918701172
+2023-03-22 15:36:46,661 - SubscriberAppln - INFO - Topc:temperature	Content:55	Time_interval:0.0002300739288330078
+2023-03-22 15:36:47,631 - SubscriberAppln - INFO - Topc:temperature	Content:57	Time_interval:0.00026226043701171875
+2023-03-22 15:36:47,663 - SubscriberAppln - INFO - Topc:temperature	Content:39	Time_interval:0.0007185935974121094
+2023-03-22 15:36:48,632 - SubscriberAppln - INFO - Topc:temperature	Content:-1	Time_interval:0.00030803680419921875
+2023-03-22 15:36:48,664 - SubscriberAppln - INFO - Topc:temperature	Content:81	Time_interval:0.000293731689453125
+2023-03-22 15:36:49,633 - SubscriberAppln - INFO - Topc:temperature	Content:31	Time_interval:0.00026297569274902344
+2023-03-22 15:36:49,665 - SubscriberAppln - INFO - Topc:temperature	Content:47	Time_interval:0.0002579689025878906
+2023-03-22 15:36:50,633 - SubscriberAppln - INFO - Topc:temperature	Content:-78	Time_interval:0.00026607513427734375
+2023-03-22 15:36:50,666 - SubscriberAppln - INFO - Topc:temperature	Content:-41	Time_interval:0.0002548694610595703
+2023-03-22 15:36:51,635 - SubscriberAppln - INFO - Topc:temperature	Content:-74	Time_interval:0.0002429485321044922
+2023-03-22 15:36:51,668 - SubscriberAppln - INFO - Topc:temperature	Content:-5	Time_interval:0.0002493858337402344
+2023-03-22 15:36:52,636 - SubscriberAppln - INFO - Topc:temperature	Content:-27	Time_interval:0.00024628639221191406
+2023-03-22 15:36:52,669 - SubscriberAppln - INFO - Topc:temperature	Content:-4	Time_interval:0.00024247169494628906
+2023-03-22 15:36:53,637 - SubscriberAppln - INFO - Topc:temperature	Content:-39	Time_interval:0.00020170211791992188
+2023-03-22 15:36:53,669 - SubscriberAppln - INFO - Topc:temperature	Content:51	Time_interval:0.00022029876708984375
+2023-03-22 15:36:54,637 - SubscriberAppln - INFO - Topc:temperature	Content:69	Time_interval:0.00026917457580566406
+2023-03-22 15:36:54,671 - SubscriberAppln - INFO - Topc:temperature	Content:76	Time_interval:0.0008363723754882812
+2023-03-22 15:36:55,639 - SubscriberAppln - INFO - Topc:temperature	Content:-18	Time_interval:0.00031447410583496094
+2023-03-22 15:36:55,672 - SubscriberAppln - INFO - Topc:temperature	Content:66	Time_interval:0.00021648406982421875
+2023-03-22 15:36:56,640 - SubscriberAppln - INFO - Topc:temperature	Content:10	Time_interval:0.00020956993103027344
+2023-03-22 15:36:56,673 - SubscriberAppln - INFO - Topc:temperature	Content:56	Time_interval:0.00025153160095214844
+2023-03-22 15:36:57,641 - SubscriberAppln - INFO - Topc:temperature	Content:-97	Time_interval:0.00021696090698242188
+2023-03-22 15:36:57,673 - SubscriberAppln - INFO - Topc:temperature	Content:4	Time_interval:0.00025916099548339844
+2023-03-22 15:36:58,641 - SubscriberAppln - INFO - Topc:temperature	Content:-71	Time_interval:0.00022983551025390625
+2023-03-22 15:36:58,675 - SubscriberAppln - INFO - Topc:temperature	Content:82	Time_interval:0.00022363662719726562
+2023-03-22 15:36:59,643 - SubscriberAppln - INFO - Topc:temperature	Content:73	Time_interval:0.0005414485931396484
+2023-03-22 15:36:59,676 - SubscriberAppln - INFO - Topc:temperature	Content:15	Time_interval:0.0002651214599609375
+2023-03-22 15:37:00,644 - SubscriberAppln - INFO - Topc:temperature	Content:12	Time_interval:0.0002372264862060547
+2023-03-22 15:37:00,677 - SubscriberAppln - INFO - Topc:temperature	Content:48	Time_interval:0.00021266937255859375

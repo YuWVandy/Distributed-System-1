@@ -1,0 +1,134 @@
+2023-03-22 15:36:14,890 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,890 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,897 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,897 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-03-22 15:36:14,941 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - ------------------------------
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO -      Name: sub7
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO -      TopicList: ['sound']
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - SubscriberMW::register
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:14,942 - SubscriberAppln - INFO - 2
+2023-03-22 15:36:14,943 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now now wait for reply
+2023-03-22 15:36:15,225 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,226 - SubscriberAppln - INFO - SubscriberAppln::register_response
+2023-03-22 15:36:15,226 - SubscriberAppln - INFO - SubscriberAppln::register_response - registration is a success
+2023-03-22 15:36:15,226 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,226 - SubscriberAppln - INFO - 1679517375.2261465
+2023-03-22 15:36:15,226 - SubscriberAppln - INFO - 63.22614669799805
+2023-03-22 15:36:15,226 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,226 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:15,226 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,611 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,611 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:15,611 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:25,617 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:25,617 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:25,617 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,631 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:25,631 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:25,631 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:35,641 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:35,641 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:35,641 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,658 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:35,659 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:35,659 - SubscriberAppln - INFO - SubscriberAppln::driver - System ready; let's connect to discovery for getting publisher information!!
+2023-03-22 15:36:35,659 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:35,659 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - start getting publisher information
+2023-03-22 15:36:35,659 - SubscriberAppln - INFO - ['sound']
+2023-03-22 15:36:35,659 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - Find publisher completed
+2023-03-22 15:36:35,663 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:35,663 - SubscriberAppln - INFO - SubscriberMW::try to set the topic filtering
+2023-03-22 15:36:35,663 - SubscriberAppln - INFO - SubscriberMW::connect to publisher
+2023-03-22 15:36:35,697 - SubscriberAppln - INFO - Topc:sound	Content:94	Time_interval:0.00030612945556640625
+2023-03-22 15:36:35,713 - SubscriberAppln - INFO - Topc:sound	Content:60	Time_interval:0.00022339820861816406
+2023-03-22 15:36:35,833 - SubscriberAppln - INFO - Topc:sound	Content:76	Time_interval:0.000217437744140625
+2023-03-22 15:36:36,698 - SubscriberAppln - INFO - Topc:sound	Content:78	Time_interval:0.0002357959747314453
+2023-03-22 15:36:36,715 - SubscriberAppln - INFO - Topc:sound	Content:90	Time_interval:0.0002880096435546875
+2023-03-22 15:36:36,835 - SubscriberAppln - INFO - Topc:sound	Content:37	Time_interval:0.0002582073211669922
+2023-03-22 15:36:37,700 - SubscriberAppln - INFO - Topc:sound	Content:36	Time_interval:0.00027108192443847656
+2023-03-22 15:36:37,716 - SubscriberAppln - INFO - Topc:sound	Content:50	Time_interval:0.00023412704467773438
+2023-03-22 15:36:37,836 - SubscriberAppln - INFO - Topc:sound	Content:85	Time_interval:0.000209808349609375
+2023-03-22 15:36:38,701 - SubscriberAppln - INFO - Topc:sound	Content:58	Time_interval:0.0002579689025878906
+2023-03-22 15:36:38,717 - SubscriberAppln - INFO - Topc:sound	Content:89	Time_interval:0.0004317760467529297
+2023-03-22 15:36:38,837 - SubscriberAppln - INFO - Topc:sound	Content:60	Time_interval:0.00041794776916503906
+2023-03-22 15:36:39,701 - SubscriberAppln - INFO - Topc:sound	Content:56	Time_interval:0.00023221969604492188
+2023-03-22 15:36:39,717 - SubscriberAppln - INFO - Topc:sound	Content:80	Time_interval:0.0002624988555908203
+2023-03-22 15:36:39,838 - SubscriberAppln - INFO - Topc:sound	Content:64	Time_interval:0.0002486705780029297
+2023-03-22 15:36:40,703 - SubscriberAppln - INFO - Topc:sound	Content:91	Time_interval:0.00027632713317871094
+2023-03-22 15:36:40,719 - SubscriberAppln - INFO - Topc:sound	Content:32	Time_interval:0.0003027915954589844
+2023-03-22 15:36:40,839 - SubscriberAppln - INFO - Topc:sound	Content:69	Time_interval:0.0002722740173339844
+2023-03-22 15:36:41,704 - SubscriberAppln - INFO - Topc:sound	Content:32	Time_interval:0.00029659271240234375
+2023-03-22 15:36:41,720 - SubscriberAppln - INFO - Topc:sound	Content:37	Time_interval:0.0007679462432861328
+2023-03-22 15:36:41,840 - SubscriberAppln - INFO - Topc:sound	Content:93	Time_interval:0.00029087066650390625
+2023-03-22 15:36:42,705 - SubscriberAppln - INFO - Topc:sound	Content:52	Time_interval:0.0002932548522949219
+2023-03-22 15:36:42,721 - SubscriberAppln - INFO - Topc:sound	Content:85	Time_interval:0.0003292560577392578
+2023-03-22 15:36:42,841 - SubscriberAppln - INFO - Topc:sound	Content:34	Time_interval:0.00023794174194335938
+2023-03-22 15:36:43,705 - SubscriberAppln - INFO - Topc:sound	Content:46	Time_interval:0.0002231597900390625
+2023-03-22 15:36:43,723 - SubscriberAppln - INFO - Topc:sound	Content:88	Time_interval:0.00032258033752441406
+2023-03-22 15:36:43,842 - SubscriberAppln - INFO - Topc:sound	Content:30	Time_interval:0.0002906322479248047
+2023-03-22 15:36:44,707 - SubscriberAppln - INFO - Topc:sound	Content:40	Time_interval:0.0002582073211669922
+2023-03-22 15:36:44,724 - SubscriberAppln - INFO - Topc:sound	Content:64	Time_interval:0.0002384185791015625
+2023-03-22 15:36:44,843 - SubscriberAppln - INFO - Topc:sound	Content:95	Time_interval:0.0002830028533935547
+2023-03-22 15:36:45,708 - SubscriberAppln - INFO - Topc:sound	Content:31	Time_interval:0.0002498626708984375
+2023-03-22 15:36:45,725 - SubscriberAppln - INFO - Topc:sound	Content:59	Time_interval:0.00027441978454589844
+2023-03-22 15:36:45,844 - SubscriberAppln - INFO - Topc:sound	Content:58	Time_interval:0.00023102760314941406
+2023-03-22 15:36:46,709 - SubscriberAppln - INFO - Topc:sound	Content:69	Time_interval:0.00026154518127441406
+2023-03-22 15:36:46,725 - SubscriberAppln - INFO - Topc:sound	Content:48	Time_interval:0.00028443336486816406
+2023-03-22 15:36:46,846 - SubscriberAppln - INFO - Topc:sound	Content:39	Time_interval:0.0008149147033691406
+2023-03-22 15:36:47,709 - SubscriberAppln - INFO - Topc:sound	Content:72	Time_interval:0.00030112266540527344
+2023-03-22 15:36:47,727 - SubscriberAppln - INFO - Topc:sound	Content:51	Time_interval:0.0002644062042236328
+2023-03-22 15:36:47,847 - SubscriberAppln - INFO - Topc:sound	Content:61	Time_interval:0.0002682209014892578
+2023-03-22 15:36:48,711 - SubscriberAppln - INFO - Topc:sound	Content:31	Time_interval:0.0008130073547363281
+2023-03-22 15:36:48,728 - SubscriberAppln - INFO - Topc:sound	Content:46	Time_interval:0.0008025169372558594
+2023-03-22 15:36:48,848 - SubscriberAppln - INFO - Topc:sound	Content:80	Time_interval:0.0003082752227783203
+2023-03-22 15:36:49,712 - SubscriberAppln - INFO - Topc:sound	Content:71	Time_interval:0.0002982616424560547
+2023-03-22 15:36:49,729 - SubscriberAppln - INFO - Topc:sound	Content:35	Time_interval:0.00027108192443847656
+2023-03-22 15:36:49,849 - SubscriberAppln - INFO - Topc:sound	Content:70	Time_interval:0.0002770423889160156
+2023-03-22 15:36:50,713 - SubscriberAppln - INFO - Topc:sound	Content:62	Time_interval:0.00021409988403320312
+2023-03-22 15:36:50,730 - SubscriberAppln - INFO - Topc:sound	Content:37	Time_interval:0.00026345252990722656
+2023-03-22 15:36:50,850 - SubscriberAppln - INFO - Topc:sound	Content:44	Time_interval:0.00023412704467773438
+2023-03-22 15:36:51,715 - SubscriberAppln - INFO - Topc:sound	Content:65	Time_interval:0.000301361083984375
+2023-03-22 15:36:51,731 - SubscriberAppln - INFO - Topc:sound	Content:71	Time_interval:0.0002529621124267578
+2023-03-22 15:36:51,851 - SubscriberAppln - INFO - Topc:sound	Content:58	Time_interval:0.0002601146697998047
+2023-03-22 15:36:52,716 - SubscriberAppln - INFO - Topc:sound	Content:90	Time_interval:0.00031447410583496094
+2023-03-22 15:36:52,732 - SubscriberAppln - INFO - Topc:sound	Content:92	Time_interval:0.0002453327178955078
+2023-03-22 15:36:52,853 - SubscriberAppln - INFO - Topc:sound	Content:54	Time_interval:0.00028133392333984375
+2023-03-22 15:36:53,717 - SubscriberAppln - INFO - Topc:sound	Content:69	Time_interval:0.00023865699768066406
+2023-03-22 15:36:53,733 - SubscriberAppln - INFO - Topc:sound	Content:58	Time_interval:0.000270843505859375
+2023-03-22 15:36:53,854 - SubscriberAppln - INFO - Topc:sound	Content:59	Time_interval:0.00038242340087890625
+2023-03-22 15:36:54,718 - SubscriberAppln - INFO - Topc:sound	Content:47	Time_interval:0.0002739429473876953
+2023-03-22 15:36:54,733 - SubscriberAppln - INFO - Topc:sound	Content:87	Time_interval:0.0002300739288330078
+2023-03-22 15:36:54,855 - SubscriberAppln - INFO - Topc:sound	Content:90	Time_interval:0.00032019615173339844
+2023-03-22 15:36:55,720 - SubscriberAppln - INFO - Topc:sound	Content:77	Time_interval:0.000232696533203125
+2023-03-22 15:36:55,735 - SubscriberAppln - INFO - Topc:sound	Content:66	Time_interval:0.00022745132446289062
+2023-03-22 15:36:55,856 - SubscriberAppln - INFO - Topc:sound	Content:84	Time_interval:0.00020194053649902344
+2023-03-22 15:36:56,721 - SubscriberAppln - INFO - Topc:sound	Content:83	Time_interval:0.00025010108947753906
+2023-03-22 15:36:56,736 - SubscriberAppln - INFO - Topc:sound	Content:52	Time_interval:0.00022649765014648438
+2023-03-22 15:36:56,857 - SubscriberAppln - INFO - Topc:sound	Content:69	Time_interval:0.00024771690368652344
+2023-03-22 15:36:57,722 - SubscriberAppln - INFO - Topc:sound	Content:37	Time_interval:0.00027632713317871094
+2023-03-22 15:36:57,737 - SubscriberAppln - INFO - Topc:sound	Content:43	Time_interval:0.00022268295288085938
+2023-03-22 15:36:57,858 - SubscriberAppln - INFO - Topc:sound	Content:45	Time_interval:0.0003662109375
+2023-03-22 15:36:58,723 - SubscriberAppln - INFO - Topc:sound	Content:87	Time_interval:0.00031280517578125
+2023-03-22 15:36:58,738 - SubscriberAppln - INFO - Topc:sound	Content:43	Time_interval:0.00024199485778808594
+2023-03-22 15:36:58,859 - SubscriberAppln - INFO - Topc:sound	Content:33	Time_interval:0.00025200843811035156
+2023-03-22 15:36:59,724 - SubscriberAppln - INFO - Topc:sound	Content:92	Time_interval:0.0003063678741455078
+2023-03-22 15:36:59,739 - SubscriberAppln - INFO - Topc:sound	Content:59	Time_interval:0.00022149085998535156
+2023-03-22 15:36:59,860 - SubscriberAppln - INFO - Topc:sound	Content:70	Time_interval:0.0002720355987548828
+2023-03-22 15:37:00,726 - SubscriberAppln - INFO - Topc:sound	Content:53	Time_interval:0.0008172988891601562
+2023-03-22 15:37:00,740 - SubscriberAppln - INFO - Topc:sound	Content:41	Time_interval:0.0006673336029052734
+2023-03-22 15:37:00,861 - SubscriberAppln - INFO - Topc:sound	Content:91	Time_interval:0.00023674964904785156
+2023-03-22 15:37:01,727 - SubscriberAppln - INFO - Topc:sound	Content:44	Time_interval:0.00026988983154296875

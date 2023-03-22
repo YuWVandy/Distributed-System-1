@@ -1,0 +1,106 @@
+2023-03-22 15:36:15,003 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:15,003 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:15,007 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:15,007 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-03-22 15:36:15,007 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - ------------------------------
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO -      Name: sub17
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO -      TopicList: ['airquality']
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO -      Frequency: 1
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - SubscriberMW::register
+2023-03-22 15:36:15,008 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,009 - SubscriberAppln - INFO - 2
+2023-03-22 15:36:15,009 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now now wait for reply
+2023-03-22 15:36:15,261 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,261 - SubscriberAppln - INFO - SubscriberAppln::register_response
+2023-03-22 15:36:15,261 - SubscriberAppln - INFO - SubscriberAppln::register_response - registration is a success
+2023-03-22 15:36:15,261 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,261 - SubscriberAppln - INFO - 1679517375.2613459
+2023-03-22 15:36:15,261 - SubscriberAppln - INFO - 63.261345863342285
+2023-03-22 15:36:15,261 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,261 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:15,261 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,763 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,763 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:15,763 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:25,769 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:25,769 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:25,769 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,784 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:25,784 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:25,784 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:35,793 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:35,793 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:35,793 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,808 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:35,808 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:35,808 - SubscriberAppln - INFO - SubscriberAppln::driver - System ready; let's connect to discovery for getting publisher information!!
+2023-03-22 15:36:35,808 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:35,808 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - start getting publisher information
+2023-03-22 15:36:35,808 - SubscriberAppln - INFO - ['airquality']
+2023-03-22 15:36:35,808 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - Find publisher completed
+2023-03-22 15:36:35,811 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:35,812 - SubscriberAppln - INFO - SubscriberMW::try to set the topic filtering
+2023-03-22 15:36:35,812 - SubscriberAppln - INFO - SubscriberMW::connect to publisher
+2023-03-22 15:36:36,432 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.0002472400665283203
+2023-03-22 15:36:36,503 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.0002415180206298828
+2023-03-22 15:36:37,433 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.00020503997802734375
+2023-03-22 15:36:37,504 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00021028518676757812
+2023-03-22 15:36:38,433 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00021696090698242188
+2023-03-22 15:36:38,505 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00023794174194335938
+2023-03-22 15:36:39,434 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.000202178955078125
+2023-03-22 15:36:39,505 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00020170211791992188
+2023-03-22 15:36:40,436 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.0005693435668945312
+2023-03-22 15:36:40,507 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00024008750915527344
+2023-03-22 15:36:41,437 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00019431114196777344
+2023-03-22 15:36:41,508 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00022602081298828125
+2023-03-22 15:36:42,437 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.0003285408020019531
+2023-03-22 15:36:42,509 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.00020384788513183594
+2023-03-22 15:36:43,439 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00019621849060058594
+2023-03-22 15:36:43,509 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.0002703666687011719
+2023-03-22 15:36:44,440 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00030803680419921875
+2023-03-22 15:36:44,511 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00024318695068359375
+2023-03-22 15:36:45,441 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.0002110004425048828
+2023-03-22 15:36:45,512 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.0001900196075439453
+2023-03-22 15:36:46,442 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.0003342628479003906
+2023-03-22 15:36:46,513 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.0001971721649169922
+2023-03-22 15:36:47,443 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.0002903938293457031
+2023-03-22 15:36:47,513 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.00022530555725097656
+2023-03-22 15:36:48,444 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.00022745132446289062
+2023-03-22 15:36:48,515 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00029754638671875
+2023-03-22 15:36:49,445 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00024700164794921875
+2023-03-22 15:36:49,516 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00030159950256347656
+2023-03-22 15:36:50,446 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.0002880096435546875
+2023-03-22 15:36:50,517 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.0006647109985351562
+2023-03-22 15:36:51,448 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.00030875205993652344
+2023-03-22 15:36:51,517 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00022721290588378906
+2023-03-22 15:36:52,449 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00021910667419433594
+2023-03-22 15:36:52,519 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.0004227161407470703
+2023-03-22 15:36:53,449 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00023484230041503906
+2023-03-22 15:36:53,520 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.0002532005310058594
+2023-03-22 15:36:54,451 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.0002193450927734375
+2023-03-22 15:36:54,521 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00027108192443847656
+2023-03-22 15:36:55,452 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00024819374084472656
+2023-03-22 15:36:55,521 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.0002129077911376953
+2023-03-22 15:36:56,453 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.0002808570861816406
+2023-03-22 15:36:56,523 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.0002028942108154297
+2023-03-22 15:36:57,454 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.00044536590576171875
+2023-03-22 15:36:57,524 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.0003428459167480469
+2023-03-22 15:36:58,455 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00021195411682128906
+2023-03-22 15:36:58,525 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.0001983642578125
+2023-03-22 15:36:59,456 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00018596649169921875
+2023-03-22 15:36:59,525 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00022864341735839844
+2023-03-22 15:37:00,457 - SubscriberAppln - INFO - Topc:airquality	Content:smog	Time_interval:0.00023865699768066406
+2023-03-22 15:37:00,526 - SubscriberAppln - INFO - Topc:airquality	Content:poor	Time_interval:0.00020003318786621094
+2023-03-22 15:37:01,528 - SubscriberAppln - INFO - Topc:airquality	Content:good	Time_interval:0.0002205371856689453

@@ -1,0 +1,85 @@
+2023-03-22 15:36:14,987 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,987 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,991 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,991 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-03-22 15:36:14,992 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-03-22 15:36:14,992 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-03-22 15:36:14,992 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-03-22 15:36:14,992 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-03-22 15:36:14,992 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:14,992 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-03-22 15:36:14,992 - SubscriberAppln - INFO - ------------------------------
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO -      Name: sub4
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO -      TopicList: ['pressure']
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO - SubscriberMW::register
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO - 2
+2023-03-22 15:36:14,993 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now now wait for reply
+2023-03-22 15:36:15,248 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,248 - SubscriberAppln - INFO - SubscriberAppln::register_response
+2023-03-22 15:36:15,249 - SubscriberAppln - INFO - SubscriberAppln::register_response - registration is a success
+2023-03-22 15:36:15,249 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,249 - SubscriberAppln - INFO - 1679517375.2490494
+2023-03-22 15:36:15,249 - SubscriberAppln - INFO - 63.2490496635437
+2023-03-22 15:36:15,249 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,249 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:15,249 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,705 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,705 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:15,705 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:25,713 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:25,713 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:25,713 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,728 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:25,729 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:25,729 - SubscriberAppln - INFO - SubscriberAppln::driver - System ready; let's connect to discovery for getting publisher information!!
+2023-03-22 15:36:25,729 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:25,729 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - start getting publisher information
+2023-03-22 15:36:25,729 - SubscriberAppln - INFO - ['pressure']
+2023-03-22 15:36:25,729 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - Find publisher completed
+2023-03-22 15:36:25,732 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:25,733 - SubscriberAppln - INFO - SubscriberMW::try to set the topic filtering
+2023-03-22 15:36:25,733 - SubscriberAppln - INFO - SubscriberMW::connect to publisher
+2023-03-22 15:36:26,543 - SubscriberAppln - INFO - Topc:pressure	Content:1023	Time_interval:0.0003299713134765625
+2023-03-22 15:36:27,544 - SubscriberAppln - INFO - Topc:pressure	Content:926	Time_interval:0.00025582313537597656
+2023-03-22 15:36:28,545 - SubscriberAppln - INFO - Topc:pressure	Content:925	Time_interval:0.0002315044403076172
+2023-03-22 15:36:29,547 - SubscriberAppln - INFO - Topc:pressure	Content:905	Time_interval:0.00025010108947753906
+2023-03-22 15:36:30,548 - SubscriberAppln - INFO - Topc:pressure	Content:1031	Time_interval:0.0003147125244140625
+2023-03-22 15:36:31,549 - SubscriberAppln - INFO - Topc:pressure	Content:1007	Time_interval:0.0004420280456542969
+2023-03-22 15:36:32,549 - SubscriberAppln - INFO - Topc:pressure	Content:1054	Time_interval:0.0003075599670410156
+2023-03-22 15:36:33,551 - SubscriberAppln - INFO - Topc:pressure	Content:985	Time_interval:0.0002758502960205078
+2023-03-22 15:36:34,551 - SubscriberAppln - INFO - Topc:pressure	Content:997	Time_interval:0.00025010108947753906
+2023-03-22 15:36:35,552 - SubscriberAppln - INFO - Topc:pressure	Content:956	Time_interval:0.00023865699768066406
+2023-03-22 15:36:36,553 - SubscriberAppln - INFO - Topc:pressure	Content:897	Time_interval:0.00023627281188964844
+2023-03-22 15:36:37,554 - SubscriberAppln - INFO - Topc:pressure	Content:929	Time_interval:0.00026798248291015625
+2023-03-22 15:36:38,555 - SubscriberAppln - INFO - Topc:pressure	Content:959	Time_interval:0.0002639293670654297
+2023-03-22 15:36:39,556 - SubscriberAppln - INFO - Topc:pressure	Content:891	Time_interval:0.00023603439331054688
+2023-03-22 15:36:40,557 - SubscriberAppln - INFO - Topc:pressure	Content:923	Time_interval:0.000286102294921875
+2023-03-22 15:36:41,557 - SubscriberAppln - INFO - Topc:pressure	Content:1082	Time_interval:0.00028061866760253906
+2023-03-22 15:36:42,559 - SubscriberAppln - INFO - Topc:pressure	Content:1046	Time_interval:0.0002269744873046875
+2023-03-22 15:36:43,560 - SubscriberAppln - INFO - Topc:pressure	Content:1035	Time_interval:0.00032138824462890625
+2023-03-22 15:36:44,561 - SubscriberAppln - INFO - Topc:pressure	Content:982	Time_interval:0.00028777122497558594
+2023-03-22 15:36:45,562 - SubscriberAppln - INFO - Topc:pressure	Content:1017	Time_interval:0.0002951622009277344
+2023-03-22 15:36:46,563 - SubscriberAppln - INFO - Topc:pressure	Content:907	Time_interval:0.0002624988555908203
+2023-03-22 15:36:47,564 - SubscriberAppln - INFO - Topc:pressure	Content:1005	Time_interval:0.0002300739288330078
+2023-03-22 15:36:48,566 - SubscriberAppln - INFO - Topc:pressure	Content:899	Time_interval:0.0008387565612792969
+2023-03-22 15:36:49,567 - SubscriberAppln - INFO - Topc:pressure	Content:1010	Time_interval:0.00029587745666503906
+2023-03-22 15:36:50,568 - SubscriberAppln - INFO - Topc:pressure	Content:1025	Time_interval:0.0008323192596435547
+2023-03-22 15:36:51,569 - SubscriberAppln - INFO - Topc:pressure	Content:882	Time_interval:0.0002722740173339844
+2023-03-22 15:36:52,570 - SubscriberAppln - INFO - Topc:pressure	Content:979	Time_interval:0.0005657672882080078
+2023-03-22 15:36:53,572 - SubscriberAppln - INFO - Topc:pressure	Content:953	Time_interval:0.0008828639984130859
+2023-03-22 15:36:54,572 - SubscriberAppln - INFO - Topc:pressure	Content:972	Time_interval:0.0002465248107910156
+2023-03-22 15:36:55,573 - SubscriberAppln - INFO - Topc:pressure	Content:965	Time_interval:0.00021696090698242188
+2023-03-22 15:36:56,575 - SubscriberAppln - INFO - Topc:pressure	Content:894	Time_interval:0.0002856254577636719
+2023-03-22 15:36:57,576 - SubscriberAppln - INFO - Topc:pressure	Content:1003	Time_interval:0.0008130073547363281
+2023-03-22 15:36:58,577 - SubscriberAppln - INFO - Topc:pressure	Content:1049	Time_interval:0.0002574920654296875
+2023-03-22 15:36:59,577 - SubscriberAppln - INFO - Topc:pressure	Content:974	Time_interval:0.00024628639221191406
+2023-03-22 15:37:00,579 - SubscriberAppln - INFO - Topc:pressure	Content:1007	Time_interval:0.00030612945556640625
+2023-03-22 15:37:01,579 - SubscriberAppln - INFO - Topc:pressure	Content:918	Time_interval:0.00023651123046875

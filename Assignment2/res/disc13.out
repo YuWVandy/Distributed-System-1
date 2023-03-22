@@ -1,0 +1,1700 @@
+2023-03-22 15:36:14,730 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,731 - DiscoveryAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,774 - DiscoveryAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,774 - DiscoveryAppln - INFO - DiscoveryAppln::configure
+2023-03-22 15:36:14,774 - DiscoveryAppln - INFO - DiscoveryMW::configure
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO - DiscoveryMW:: configure - finger table generation
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO - [(6901241367425, 'disc13'), (20366619046715, 'disc18'), (21502160376427, 'disc17'), (51077673991799, 'disc16'), (59382408338863, 'disc10'), (62345904831672, 'disc7'), (88577042698706, 'disc3'), (97961326554925, 'disc4'), (103710743549045, 'disc1'), (115899221926483, 'disc14'), (123156555588195, 'disc19'), (123543562938736, 'disc2'), (134483861619322, 'disc9'), (135211542714645, 'disc11'), (150211187166660, 'disc5'), (177155221211057, 'disc6'), (178714392804652, 'disc12'), (215423440582976, 'disc15'), (216177654255326, 'disc8'), (260285193741610, 'disc20')]
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO - {0: (20366619046715, 'disc18', '10.0.0.2', 5555), 1: (20366619046715, 'disc18', '10.0.0.2', 5555), 2: (20366619046715, 'disc18', '10.0.0.2', 5555), 3: (20366619046715, 'disc18', '10.0.0.2', 5555), 4: (20366619046715, 'disc18', '10.0.0.2', 5555), 5: (20366619046715, 'disc18', '10.0.0.2', 5555), 6: (20366619046715, 'disc18', '10.0.0.2', 5555), 7: (20366619046715, 'disc18', '10.0.0.2', 5555), 8: (20366619046715, 'disc18', '10.0.0.2', 5555), 9: (20366619046715, 'disc18', '10.0.0.2', 5555), 10: (20366619046715, 'disc18', '10.0.0.2', 5555), 11: (20366619046715, 'disc18', '10.0.0.2', 5555), 12: (20366619046715, 'disc18', '10.0.0.2', 5555), 13: (20366619046715, 'disc18', '10.0.0.2', 5555), 14: (20366619046715, 'disc18', '10.0.0.2', 5555), 15: (20366619046715, 'disc18', '10.0.0.2', 5555), 16: (20366619046715, 'disc18', '10.0.0.2', 5555), 17: (20366619046715, 'disc18', '10.0.0.2', 5555), 18: (20366619046715, 'disc18', '10.0.0.2', 5555), 19: (20366619046715, 'disc18', '10.0.0.2', 5555), 20: (20366619046715, 'disc18', '10.0.0.2', 5555), 21: (20366619046715, 'disc18', '10.0.0.2', 5555), 22: (20366619046715, 'disc18', '10.0.0.2', 5555), 23: (20366619046715, 'disc18', '10.0.0.2', 5555), 24: (20366619046715, 'disc18', '10.0.0.2', 5555), 25: (20366619046715, 'disc18', '10.0.0.2', 5555), 26: (20366619046715, 'disc18', '10.0.0.2', 5555), 27: (20366619046715, 'disc18', '10.0.0.2', 5555), 28: (20366619046715, 'disc18', '10.0.0.2', 5555), 29: (20366619046715, 'disc18', '10.0.0.2', 5555), 30: (20366619046715, 'disc18', '10.0.0.2', 5555), 31: (20366619046715, 'disc18', '10.0.0.2', 5555), 32: (20366619046715, 'disc18', '10.0.0.2', 5555), 33: (20366619046715, 'disc18', '10.0.0.2', 5555), 34: (20366619046715, 'disc18', '10.0.0.2', 5555), 35: (20366619046715, 'disc18', '10.0.0.2', 5555), 36: (20366619046715, 'disc18', '10.0.0.2', 5555), 37: (20366619046715, 'disc18', '10.0.0.2', 5555), 38: (20366619046715, 'disc18', '10.0.0.2', 5555), 39: (20366619046715, 'disc18', '10.0.0.2', 5555), 40: (20366619046715, 'disc18', '10.0.0.2', 5555), 41: (20366619046715, 'disc18', '10.0.0.2', 5555), 42: (20366619046715, 'disc18', '10.0.0.2', 5555), 43: (20366619046715, 'disc18', '10.0.0.2', 5555), 44: (51077673991799, 'disc16', '10.0.0.17', 5555), 45: (51077673991799, 'disc16', '10.0.0.17', 5555), 46: (88577042698706, 'disc3', '10.0.0.11', 5555), 47: (150211187166660, 'disc5', '10.0.0.15', 5556)}
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO - DiscoveryMW::configure completed
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO - DiscoveryAppln::configure - configuration complete
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO - DiscoveryAppln::driver
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO - **********************************
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO - DiscoveryAppln::dump
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO - ------------------------------
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO -      Name: disc13
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,775 - DiscoveryAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,776 - DiscoveryAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,776 - DiscoveryAppln - INFO - **********************************
+2023-03-22 15:36:14,776 - DiscoveryAppln - INFO - DiscoveryMW::event_loop - run the event loop
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,311 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,312 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,312 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,312 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,312 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,312 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,340 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,340 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,340 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,346 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,347 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,347 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,347 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,347 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,347 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,347 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,357 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,357 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,357 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,361 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,361 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,361 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,361 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,361 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,361 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,361 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,361 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,361 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,361 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,362 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,362 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,362 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,362 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,362 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,362 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,362 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,362 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,375 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,375 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,375 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,379 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,380 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,380 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,380 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,380 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,380 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,380 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,391 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,391 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,391 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,395 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,395 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,395 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,395 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,395 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,395 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,395 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,395 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,395 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,395 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,396 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,396 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,396 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,396 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,396 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,396 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,396 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,396 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,408 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,408 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,408 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,412 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,422 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,422 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,423 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,428 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,428 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,428 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,428 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,428 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,428 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,429 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,439 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,439 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,439 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,444 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,455 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,455 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,455 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,459 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,469 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,469 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,469 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,473 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,474 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,474 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,474 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,484 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,484 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,484 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,489 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,490 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,490 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,490 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,490 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,490 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,490 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,490 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,503 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,503 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,503 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,508 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,518 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,518 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,518 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,522 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,523 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,534 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,534 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,534 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,539 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,550 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,550 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,550 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,554 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,564 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,564 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,564 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,568 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,578 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,578 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,578 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,582 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,582 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,583 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,595 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,595 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,595 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,599 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,609 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,610 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,610 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,615 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,626 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,626 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,626 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,632 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,644 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,644 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,644 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,648 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,648 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,648 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,648 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,648 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,648 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,648 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,649 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,661 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,661 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,662 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,666 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,675 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,676 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,676 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,680 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,680 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,681 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,690 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,690 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,690 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,694 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,694 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,694 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,695 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,704 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,704 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,704 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,708 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,708 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,708 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,708 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,708 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,708 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,708 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,708 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,708 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,708 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,709 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,709 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,709 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,709 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,709 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,709 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,709 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,709 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,718 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,718 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,718 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,723 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,724 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,724 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,733 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,733 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,733 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,737 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,738 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,746 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,747 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,747 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,750 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,750 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,750 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,751 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,761 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,761 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,762 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,766 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,777 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,777 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,777 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,780 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,780 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,780 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,780 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,780 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,780 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,780 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,780 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,780 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,781 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,781 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,781 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,781 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,781 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,781 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,781 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,781 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,781 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,792 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,792 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,792 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,797 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,798 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,798 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,798 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,798 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,798 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,807 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,808 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,808 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,812 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,812 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,812 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,812 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,812 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,812 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,812 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,812 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,812 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,813 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,813 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,813 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,813 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,813 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,813 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,813 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,813 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,813 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,823 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,823 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,824 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,827 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,828 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,828 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,828 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,828 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,828 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,828 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,828 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,838 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,838 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,838 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,843 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,854 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,854 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,854 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,860 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,870 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,870 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,870 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,874 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,875 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,875 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,875 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,875 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,875 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,875 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,875 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,884 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,885 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,885 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,890 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,901 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,901 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,901 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,907 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,916 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:15,917 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,917 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,921 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,931 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,931 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,931 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:15,935 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:15,936 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:15,936 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:15,936 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,936 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:15,946 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:15,946 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,946 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,391 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,401 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:25,401 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,401 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,405 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,415 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:25,415 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,415 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,436 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,437 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,437 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,437 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,437 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,437 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,446 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:25,446 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,446 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,481 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,482 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,482 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,490 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:25,490 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,490 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,495 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,495 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,495 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,495 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,495 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,495 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,496 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,505 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:25,505 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,505 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,530 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,540 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:25,540 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,540 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,577 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,587 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:25,587 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,587 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,592 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,601 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:25,601 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,601 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,620 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,621 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,630 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:25,630 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,630 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,673 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,673 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,673 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,673 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,673 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,673 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,673 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,673 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,674 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,674 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,674 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,674 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,674 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,674 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,674 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,674 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,674 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,674 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,683 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:25,683 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,684 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,688 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,698 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:25,698 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,698 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,717 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,717 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,718 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,727 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:25,727 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,727 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,760 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,770 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:25,770 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,770 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,774 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,783 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:25,783 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,783 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,805 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,813 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:25,813 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,814 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,854 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,855 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,863 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:25,863 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,863 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,870 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,879 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:25,879 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,879 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,896 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,905 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:25,905 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,905 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,945 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,954 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:25,954 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,954 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:25,961 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:25,962 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,962 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:25,972 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:25,972 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,973 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,428 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,428 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,428 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,429 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:35,439 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:35,439 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,439 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,461 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:35,472 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:35,472 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,472 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,516 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,516 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:35,516 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,517 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:35,525 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:35,525 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,525 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,607 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:35,617 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:35,617 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,617 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,646 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:35,656 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:35,657 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,657 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,712 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,713 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:35,713 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:35,713 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:35,713 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:35,713 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,713 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:35,723 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:35,723 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,723 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,780 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,780 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,780 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,781 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:35,790 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:35,790 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,790 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,797 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:35,806 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:35,807 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,807 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,893 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,893 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:35,893 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,893 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,893 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,893 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,893 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:35,893 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:35,893 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,894 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,894 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,894 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,894 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:35,894 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:35,894 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:35,894 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:35,894 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,894 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:35,903 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:35,903 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,903 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,916 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:35,926 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:35,926 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,926 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,452 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,452 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:45,452 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,452 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,452 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:45,453 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:45,462 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:45,462 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,462 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,486 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,486 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:45,487 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:45,495 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:45,495 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,495 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:45,628 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:45,637 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:45,637 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,637 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:45,738 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:45,748 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:45,748 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,748 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,813 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,814 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:45,814 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,814 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,815 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:45,815 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,815 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:45,815 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:45,815 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,816 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:45,816 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,816 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:45,816 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:45,816 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:45,816 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:45,817 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:45,817 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:45,817 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:45,833 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:45,833 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,833 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,941 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,941 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:45,941 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,941 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,941 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:45,941 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,941 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:45,941 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:45,942 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,942 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:45,942 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:45,942 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:45,942 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:45,942 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:45,942 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:45,942 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:45,942 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:45,942 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:45,951 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:45,951 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,951 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:55,478 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:55,488 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:55,489 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:55,489 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:55,648 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:55,649 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:55,649 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:55,649 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:55,659 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:55,659 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:55,659 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:55,848 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:55,849 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:55,849 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:55,849 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:55,849 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:55,859 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua True
+2023-03-22 15:36:55,859 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:55,859 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - [b'disc20', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - 0
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - DiscoveryMW::is_ready_transfer
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - 20:0
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - 18:0
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address 10.0.0.2:5555, disc18
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - tcp://10.0.0.2:5555
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check transfer address tcp://10.0.0.2:5555
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - DiscoveryMW:: is_ready - check Connect next node successfully
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - DiscoveryMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:55,964 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply
+2023-03-22 15:36:55,974 - DiscoveryAppln - INFO - DiscoveryMW::transfer_ready_reply_statua False
+2023-03-22 15:36:55,974 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:55,974 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent

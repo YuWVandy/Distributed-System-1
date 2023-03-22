@@ -1,0 +1,89 @@
+2023-03-22 15:36:15,007 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:15,007 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:15,011 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO - ------------------------------
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO -      Name: sub6
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO -      TopicList: ['light']
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:15,012 - SubscriberAppln - INFO -      Frequency: 1
+2023-03-22 15:36:15,013 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,013 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-03-22 15:36:15,013 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,013 - SubscriberAppln - INFO - SubscriberMW::register
+2023-03-22 15:36:15,013 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,013 - SubscriberAppln - INFO - 2
+2023-03-22 15:36:15,013 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now now wait for reply
+2023-03-22 15:36:15,263 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,263 - SubscriberAppln - INFO - SubscriberAppln::register_response
+2023-03-22 15:36:15,263 - SubscriberAppln - INFO - SubscriberAppln::register_response - registration is a success
+2023-03-22 15:36:15,263 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,263 - SubscriberAppln - INFO - 1679517375.263742
+2023-03-22 15:36:15,263 - SubscriberAppln - INFO - 63.263741970062256
+2023-03-22 15:36:15,263 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,263 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:15,263 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,778 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,778 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:15,778 - SubscriberAppln - INFO - SubscriberAppln::driver - System ready; let's connect to discovery for getting publisher information!!
+2023-03-22 15:36:15,778 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,778 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - start getting publisher information
+2023-03-22 15:36:15,778 - SubscriberAppln - INFO - ['light']
+2023-03-22 15:36:15,779 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - Find publisher completed
+2023-03-22 15:36:15,968 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,969 - SubscriberAppln - INFO - SubscriberMW::try to set the topic filtering
+2023-03-22 15:36:15,969 - SubscriberAppln - INFO - SubscriberMW::connect to publisher
+2023-03-22 15:36:16,553 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0002167224884033203
+2023-03-22 15:36:17,555 - SubscriberAppln - INFO - Topc:light	Content:450	Time_interval:0.00027632713317871094
+2023-03-22 15:36:18,556 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.0002574920654296875
+2023-03-22 15:36:19,557 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.00023245811462402344
+2023-03-22 15:36:20,557 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.0002396106719970703
+2023-03-22 15:36:21,559 - SubscriberAppln - INFO - Topc:light	Content:1600	Time_interval:0.00026416778564453125
+2023-03-22 15:36:22,560 - SubscriberAppln - INFO - Topc:light	Content:450	Time_interval:0.0004000663757324219
+2023-03-22 15:36:23,561 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.0002453327178955078
+2023-03-22 15:36:24,562 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.00027441978454589844
+2023-03-22 15:36:25,563 - SubscriberAppln - INFO - Topc:light	Content:450	Time_interval:0.0002224445343017578
+2023-03-22 15:36:26,564 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.00028777122497558594
+2023-03-22 15:36:27,565 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0002579689025878906
+2023-03-22 15:36:28,565 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0002720355987548828
+2023-03-22 15:36:29,567 - SubscriberAppln - INFO - Topc:light	Content:1600	Time_interval:0.0002510547637939453
+2023-03-22 15:36:30,568 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0002346038818359375
+2023-03-22 15:36:31,569 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0002110004425048828
+2023-03-22 15:36:32,570 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0002357959747314453
+2023-03-22 15:36:33,571 - SubscriberAppln - INFO - Topc:light	Content:1600	Time_interval:0.0001938343048095703
+2023-03-22 15:36:34,572 - SubscriberAppln - INFO - Topc:light	Content:1600	Time_interval:0.0002281665802001953
+2023-03-22 15:36:35,573 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.00024127960205078125
+2023-03-22 15:36:36,573 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.0002231597900390625
+2023-03-22 15:36:37,575 - SubscriberAppln - INFO - Topc:light	Content:450	Time_interval:0.00026702880859375
+2023-03-22 15:36:38,576 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.0002205371856689453
+2023-03-22 15:36:39,576 - SubscriberAppln - INFO - Topc:light	Content:1600	Time_interval:0.00024962425231933594
+2023-03-22 15:36:40,577 - SubscriberAppln - INFO - Topc:light	Content:1600	Time_interval:0.00026607513427734375
+2023-03-22 15:36:41,579 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0002834796905517578
+2023-03-22 15:36:42,579 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0002143383026123047
+2023-03-22 15:36:43,580 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.0002346038818359375
+2023-03-22 15:36:44,581 - SubscriberAppln - INFO - Topc:light	Content:1600	Time_interval:0.00023698806762695312
+2023-03-22 15:36:45,582 - SubscriberAppln - INFO - Topc:light	Content:450	Time_interval:0.00023317337036132812
+2023-03-22 15:36:46,584 - SubscriberAppln - INFO - Topc:light	Content:450	Time_interval:0.00022220611572265625
+2023-03-22 15:36:47,585 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.0003159046173095703
+2023-03-22 15:36:48,586 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0008168220520019531
+2023-03-22 15:36:49,587 - SubscriberAppln - INFO - Topc:light	Content:450	Time_interval:0.0002741813659667969
+2023-03-22 15:36:50,589 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0005648136138916016
+2023-03-22 15:36:51,589 - SubscriberAppln - INFO - Topc:light	Content:1600	Time_interval:0.00022077560424804688
+2023-03-22 15:36:52,591 - SubscriberAppln - INFO - Topc:light	Content:800	Time_interval:0.0002396106719970703
+2023-03-22 15:36:53,592 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.0007178783416748047
+2023-03-22 15:36:54,593 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.00025963783264160156
+2023-03-22 15:36:55,594 - SubscriberAppln - INFO - Topc:light	Content:450	Time_interval:0.0002224445343017578
+2023-03-22 15:36:56,596 - SubscriberAppln - INFO - Topc:light	Content:450	Time_interval:0.0002913475036621094
+2023-03-22 15:36:57,597 - SubscriberAppln - INFO - Topc:light	Content:450	Time_interval:0.0003476142883300781
+2023-03-22 15:36:58,597 - SubscriberAppln - INFO - Topc:light	Content:1600	Time_interval:0.0002205371856689453
+2023-03-22 15:36:59,599 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.00030159950256347656
+2023-03-22 15:37:00,600 - SubscriberAppln - INFO - Topc:light	Content:1600	Time_interval:0.00026607513427734375
+2023-03-22 15:37:01,601 - SubscriberAppln - INFO - Topc:light	Content:1100	Time_interval:0.0002315044403076172

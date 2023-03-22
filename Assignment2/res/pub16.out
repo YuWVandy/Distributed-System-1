@@ -1,0 +1,83 @@
+2023-03-22 15:36:14,874 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,881 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,884 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,885 - PublisherAppln - INFO - PublisherAppln::configure
+2023-03-22 15:36:14,885 - PublisherAppln - INFO - PublisherMW::configure
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - PublisherMW::configure completed
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - PublisherAppln::configure - configuration complete
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - PublisherAppln::driver
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - PublisherAppln::dump
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - ------------------------------
+2023-03-22 15:36:14,886 - PublisherAppln - INFO -      Name: pub16
+2023-03-22 15:36:14,886 - PublisherAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,886 - PublisherAppln - INFO -      Dissemination: Direct
+2023-03-22 15:36:14,886 - PublisherAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,886 - PublisherAppln - INFO -      TopicList: ['light']
+2023-03-22 15:36:14,886 - PublisherAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,886 - PublisherAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - PublisherMW::event_loop - run the event loop
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - PublisherMW::register
+2023-03-22 15:36:14,886 - PublisherAppln - INFO - PublisherMW::register - sent register message and now wait for reply
+2023-03-22 15:36:15,207 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,207 - PublisherAppln - INFO - PublisherAppln::register_response
+2023-03-22 15:36:15,207 - PublisherAppln - INFO - PublisherAppln::register_response - registration is a success
+2023-03-22 15:36:15,207 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,207 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:15,207 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:15,207 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,552 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,552 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:15,552 - PublisherAppln - INFO - PublisherAppln::driver - System ready; let's go!!
+2023-03-22 15:36:15,552 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,552 - PublisherAppln - INFO - PublisherAppln::invoke_operation - start Disseminating
+2023-03-22 15:36:15,552 - PublisherAppln - INFO - light:1600:1679517375.5525262
+2023-03-22 15:36:16,553 - PublisherAppln - INFO - light:800:1679517376.5536177
+2023-03-22 15:36:17,554 - PublisherAppln - INFO - light:450:1679517377.5547733
+2023-03-22 15:36:18,555 - PublisherAppln - INFO - light:1100:1679517378.5559554
+2023-03-22 15:36:19,557 - PublisherAppln - INFO - light:1100:1679517379.5571105
+2023-03-22 15:36:20,557 - PublisherAppln - INFO - light:1100:1679517380.5576692
+2023-03-22 15:36:21,558 - PublisherAppln - INFO - light:1600:1679517381.5588226
+2023-03-22 15:36:22,560 - PublisherAppln - INFO - light:450:1679517382.5600097
+2023-03-22 15:36:23,561 - PublisherAppln - INFO - light:1100:1679517383.5612235
+2023-03-22 15:36:24,561 - PublisherAppln - INFO - light:800:1679517384.5617735
+2023-03-22 15:36:25,562 - PublisherAppln - INFO - light:450:1679517385.5629423
+2023-03-22 15:36:26,564 - PublisherAppln - INFO - light:1100:1679517386.5641577
+2023-03-22 15:36:27,565 - PublisherAppln - INFO - light:800:1679517387.565411
+2023-03-22 15:36:28,565 - PublisherAppln - INFO - light:800:1679517388.5656276
+2023-03-22 15:36:29,566 - PublisherAppln - INFO - light:1600:1679517389.5668626
+2023-03-22 15:36:30,568 - PublisherAppln - INFO - light:800:1679517390.5680513
+2023-03-22 15:36:31,569 - PublisherAppln - INFO - light:800:1679517391.5692332
+2023-03-22 15:36:32,569 - PublisherAppln - INFO - light:800:1679517392.569764
+2023-03-22 15:36:33,570 - PublisherAppln - INFO - light:1600:1679517393.570925
+2023-03-22 15:36:34,572 - PublisherAppln - INFO - light:1600:1679517394.5720859
+2023-03-22 15:36:35,573 - PublisherAppln - INFO - light:800:1679517395.5732765
+2023-03-22 15:36:36,573 - PublisherAppln - INFO - light:1100:1679517396.5736182
+2023-03-22 15:36:37,574 - PublisherAppln - INFO - light:450:1679517397.574795
+2023-03-22 15:36:38,575 - PublisherAppln - INFO - light:1100:1679517398.5759685
+2023-03-22 15:36:39,576 - PublisherAppln - INFO - light:1600:1679517399.5764964
+2023-03-22 15:36:40,577 - PublisherAppln - INFO - light:1600:1679517400.5776176
+2023-03-22 15:36:41,578 - PublisherAppln - INFO - light:800:1679517401.5787663
+2023-03-22 15:36:42,579 - PublisherAppln - INFO - light:800:1679517402.579161
+2023-03-22 15:36:43,580 - PublisherAppln - INFO - light:1100:1679517403.580355
+2023-03-22 15:36:44,581 - PublisherAppln - INFO - light:1600:1679517404.5814984
+2023-03-22 15:36:45,582 - PublisherAppln - INFO - light:450:1679517405.582652
+2023-03-22 15:36:46,583 - PublisherAppln - INFO - light:450:1679517406.5837927
+2023-03-22 15:36:47,584 - PublisherAppln - INFO - light:1100:1679517407.5849667
+2023-03-22 15:36:48,585 - PublisherAppln - INFO - light:800:1679517408.5856934
+2023-03-22 15:36:49,587 - PublisherAppln - INFO - light:450:1679517409.5872464
+2023-03-22 15:36:50,588 - PublisherAppln - INFO - light:800:1679517410.5884764
+2023-03-22 15:36:51,589 - PublisherAppln - INFO - light:1600:1679517411.589626
+2023-03-22 15:36:52,590 - PublisherAppln - INFO - light:800:1679517412.5908167
+2023-03-22 15:36:53,592 - PublisherAppln - INFO - light:1100:1679517413.5920663
+2023-03-22 15:36:54,593 - PublisherAppln - INFO - light:1100:1679517414.593569
+2023-03-22 15:36:55,594 - PublisherAppln - INFO - light:450:1679517415.594744
+2023-03-22 15:36:56,596 - PublisherAppln - INFO - light:450:1679517416.5959754
+2023-03-22 15:36:57,597 - PublisherAppln - INFO - light:450:1679517417.5972073
+2023-03-22 15:36:58,597 - PublisherAppln - INFO - light:1600:1679517418.597759
+2023-03-22 15:36:59,599 - PublisherAppln - INFO - light:1100:1679517419.5990098
+2023-03-22 15:37:00,600 - PublisherAppln - INFO - light:1600:1679517420.6002522
+2023-03-22 15:37:01,601 - PublisherAppln - INFO - light:1100:1679517421.6014402
+2023-03-22 15:37:02,601 - PublisherAppln - INFO - light:1100:1679517422.6016614

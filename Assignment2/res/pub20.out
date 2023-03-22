@@ -1,0 +1,61 @@
+2023-03-22 15:36:14,883 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,883 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,917 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,917 - PublisherAppln - INFO - PublisherAppln::configure
+2023-03-22 15:36:14,917 - PublisherAppln - INFO - PublisherMW::configure
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - PublisherMW::configure completed
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - PublisherAppln::configure - configuration complete
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - PublisherAppln::driver
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - PublisherAppln::dump
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - ------------------------------
+2023-03-22 15:36:14,918 - PublisherAppln - INFO -      Name: pub20
+2023-03-22 15:36:14,918 - PublisherAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,918 - PublisherAppln - INFO -      Dissemination: Direct
+2023-03-22 15:36:14,918 - PublisherAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,918 - PublisherAppln - INFO -      TopicList: ['sound']
+2023-03-22 15:36:14,918 - PublisherAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,918 - PublisherAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - PublisherMW::event_loop - run the event loop
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - PublisherMW::register
+2023-03-22 15:36:14,918 - PublisherAppln - INFO - PublisherMW::register - sent register message and now wait for reply
+2023-03-22 15:36:15,217 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,217 - PublisherAppln - INFO - PublisherAppln::register_response
+2023-03-22 15:36:15,217 - PublisherAppln - INFO - PublisherAppln::register_response - registration is a success
+2023-03-22 15:36:15,217 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,217 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:15,217 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:15,217 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,580 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,580 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:15,580 - PublisherAppln - INFO - PublisherAppln::driver - Not ready yet; check again
+2023-03-22 15:36:25,589 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:25,589 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:25,589 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:25,589 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,602 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:25,602 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:25,603 - PublisherAppln - INFO - PublisherAppln::driver - Not ready yet; check again
+2023-03-22 15:36:35,604 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:35,604 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:35,604 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:35,604 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,618 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:35,619 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:35,619 - PublisherAppln - INFO - PublisherAppln::driver - Not ready yet; check again
+2023-03-22 15:36:45,625 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:45,625 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:45,625 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:45,625 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:45,638 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:45,638 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:45,638 - PublisherAppln - INFO - PublisherAppln::driver - Not ready yet; check again
+2023-03-22 15:36:55,645 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:55,645 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:55,645 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:55,645 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:55,660 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:55,660 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:55,660 - PublisherAppln - INFO - PublisherAppln::driver - Not ready yet; check again

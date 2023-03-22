@@ -1,0 +1,134 @@
+2023-03-22 15:36:15,030 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:15,030 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:15,034 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:15,034 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-03-22 15:36:15,034 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - ------------------------------
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO -      Name: sub13
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO -      TopicList: ['altitude']
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO -      Frequency: 1
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - SubscriberMW::register
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,035 - SubscriberAppln - INFO - 2
+2023-03-22 15:36:15,036 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now now wait for reply
+2023-03-22 15:36:15,281 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,281 - SubscriberAppln - INFO - SubscriberAppln::register_response
+2023-03-22 15:36:15,281 - SubscriberAppln - INFO - SubscriberAppln::register_response - registration is a success
+2023-03-22 15:36:15,281 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,281 - SubscriberAppln - INFO - 1679517375.2818747
+2023-03-22 15:36:15,281 - SubscriberAppln - INFO - 63.281874656677246
+2023-03-22 15:36:15,282 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,282 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:15,282 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,856 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,856 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:15,856 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:25,865 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:25,865 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:25,865 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,880 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:25,880 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:25,880 - SubscriberAppln - INFO - SubscriberAppln::driver - Not ready yet; check again
+2023-03-22 15:36:35,889 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:35,889 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:35,889 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,905 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:35,905 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:35,905 - SubscriberAppln - INFO - SubscriberAppln::driver - System ready; let's connect to discovery for getting publisher information!!
+2023-03-22 15:36:35,905 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:35,905 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - start getting publisher information
+2023-03-22 15:36:35,905 - SubscriberAppln - INFO - ['altitude']
+2023-03-22 15:36:35,905 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - Find publisher completed
+2023-03-22 15:36:35,910 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:35,911 - SubscriberAppln - INFO - SubscriberMW::try to set the topic filtering
+2023-03-22 15:36:35,911 - SubscriberAppln - INFO - SubscriberMW::connect to publisher
+2023-03-22 15:36:36,528 - SubscriberAppln - INFO - Topc:altitude	Content:13199	Time_interval:0.00026345252990722656
+2023-03-22 15:36:36,529 - SubscriberAppln - INFO - Topc:altitude	Content:17136	Time_interval:0.0002040863037109375
+2023-03-22 15:36:36,600 - SubscriberAppln - INFO - Topc:altitude	Content:23804	Time_interval:0.00022840499877929688
+2023-03-22 15:36:37,529 - SubscriberAppln - INFO - Topc:altitude	Content:10075	Time_interval:0.00020885467529296875
+2023-03-22 15:36:37,530 - SubscriberAppln - INFO - Topc:altitude	Content:8582	Time_interval:0.0001380443572998047
+2023-03-22 15:36:37,601 - SubscriberAppln - INFO - Topc:altitude	Content:2040	Time_interval:0.00021982192993164062
+2023-03-22 15:36:38,531 - SubscriberAppln - INFO - Topc:altitude	Content:13759	Time_interval:0.0002887248992919922
+2023-03-22 15:36:38,532 - SubscriberAppln - INFO - Topc:altitude	Content:25995	Time_interval:0.0001430511474609375
+2023-03-22 15:36:38,602 - SubscriberAppln - INFO - Topc:altitude	Content:29578	Time_interval:0.0007085800170898438
+2023-03-22 15:36:39,532 - SubscriberAppln - INFO - Topc:altitude	Content:4462	Time_interval:0.0002110004425048828
+2023-03-22 15:36:39,533 - SubscriberAppln - INFO - Topc:altitude	Content:9970	Time_interval:0.00014328956604003906
+2023-03-22 15:36:39,603 - SubscriberAppln - INFO - Topc:altitude	Content:13550	Time_interval:0.0002770423889160156
+2023-03-22 15:36:40,533 - SubscriberAppln - INFO - Topc:altitude	Content:30832	Time_interval:0.0002741813659667969
+2023-03-22 15:36:40,533 - SubscriberAppln - INFO - Topc:altitude	Content:8592	Time_interval:0.0002582073211669922
+2023-03-22 15:36:40,604 - SubscriberAppln - INFO - Topc:altitude	Content:28706	Time_interval:0.0002396106719970703
+2023-03-22 15:36:41,533 - SubscriberAppln - INFO - Topc:altitude	Content:38305	Time_interval:0.0002505779266357422
+2023-03-22 15:36:41,534 - SubscriberAppln - INFO - Topc:altitude	Content:10927	Time_interval:0.0001976490020751953
+2023-03-22 15:36:41,605 - SubscriberAppln - INFO - Topc:altitude	Content:14515	Time_interval:0.000263214111328125
+2023-03-22 15:36:42,535 - SubscriberAppln - INFO - Topc:altitude	Content:27088	Time_interval:0.00020503997802734375
+2023-03-22 15:36:42,536 - SubscriberAppln - INFO - Topc:altitude	Content:12580	Time_interval:0.00017499923706054688
+2023-03-22 15:36:42,605 - SubscriberAppln - INFO - Topc:altitude	Content:18299	Time_interval:0.00019884109497070312
+2023-03-22 15:36:43,536 - SubscriberAppln - INFO - Topc:altitude	Content:18637	Time_interval:0.00025963783264160156
+2023-03-22 15:36:43,536 - SubscriberAppln - INFO - Topc:altitude	Content:24782	Time_interval:0.0002262592315673828
+2023-03-22 15:36:43,607 - SubscriberAppln - INFO - Topc:altitude	Content:21118	Time_interval:0.000232696533203125
+2023-03-22 15:36:44,537 - SubscriberAppln - INFO - Topc:altitude	Content:25332	Time_interval:0.0002741813659667969
+2023-03-22 15:36:44,537 - SubscriberAppln - INFO - Topc:altitude	Content:27894	Time_interval:0.00018453598022460938
+2023-03-22 15:36:44,608 - SubscriberAppln - INFO - Topc:altitude	Content:4984	Time_interval:0.0002243518829345703
+2023-03-22 15:36:45,537 - SubscriberAppln - INFO - Topc:altitude	Content:21361	Time_interval:0.00021004676818847656
+2023-03-22 15:36:45,537 - SubscriberAppln - INFO - Topc:altitude	Content:8454	Time_interval:0.0002994537353515625
+2023-03-22 15:36:45,609 - SubscriberAppln - INFO - Topc:altitude	Content:8802	Time_interval:0.00024080276489257812
+2023-03-22 15:36:46,539 - SubscriberAppln - INFO - Topc:altitude	Content:21810	Time_interval:0.00029659271240234375
+2023-03-22 15:36:46,539 - SubscriberAppln - INFO - Topc:altitude	Content:6631	Time_interval:0.0004432201385498047
+2023-03-22 15:36:46,610 - SubscriberAppln - INFO - Topc:altitude	Content:6005	Time_interval:0.0007016658782958984
+2023-03-22 15:36:47,540 - SubscriberAppln - INFO - Topc:altitude	Content:2225	Time_interval:0.0002772808074951172
+2023-03-22 15:36:47,540 - SubscriberAppln - INFO - Topc:altitude	Content:16845	Time_interval:0.0004143714904785156
+2023-03-22 15:36:47,611 - SubscriberAppln - INFO - Topc:altitude	Content:35078	Time_interval:0.00027942657470703125
+2023-03-22 15:36:48,541 - SubscriberAppln - INFO - Topc:altitude	Content:4979	Time_interval:0.0002486705780029297
+2023-03-22 15:36:48,541 - SubscriberAppln - INFO - Topc:altitude	Content:22536	Time_interval:0.0003638267517089844
+2023-03-22 15:36:48,612 - SubscriberAppln - INFO - Topc:altitude	Content:31419	Time_interval:0.00025534629821777344
+2023-03-22 15:36:49,541 - SubscriberAppln - INFO - Topc:altitude	Content:10219	Time_interval:0.00024366378784179688
+2023-03-22 15:36:49,542 - SubscriberAppln - INFO - Topc:altitude	Content:34856	Time_interval:0.00038743019104003906
+2023-03-22 15:36:49,613 - SubscriberAppln - INFO - Topc:altitude	Content:32963	Time_interval:0.00023102760314941406
+2023-03-22 15:36:50,543 - SubscriberAppln - INFO - Topc:altitude	Content:24093	Time_interval:0.00021004676818847656
+2023-03-22 15:36:50,543 - SubscriberAppln - INFO - Topc:altitude	Content:19123	Time_interval:0.00020885467529296875
+2023-03-22 15:36:50,615 - SubscriberAppln - INFO - Topc:altitude	Content:1846	Time_interval:0.0002715587615966797
+2023-03-22 15:36:51,544 - SubscriberAppln - INFO - Topc:altitude	Content:3253	Time_interval:0.0002536773681640625
+2023-03-22 15:36:51,544 - SubscriberAppln - INFO - Topc:altitude	Content:23766	Time_interval:0.0003991127014160156
+2023-03-22 15:36:51,616 - SubscriberAppln - INFO - Topc:altitude	Content:10595	Time_interval:0.00023698806762695312
+2023-03-22 15:36:52,546 - SubscriberAppln - INFO - Topc:altitude	Content:27213	Time_interval:0.0007493495941162109
+2023-03-22 15:36:52,546 - SubscriberAppln - INFO - Topc:altitude	Content:38835	Time_interval:0.0012211799621582031
+2023-03-22 15:36:52,617 - SubscriberAppln - INFO - Topc:altitude	Content:23029	Time_interval:0.0002930164337158203
+2023-03-22 15:36:53,546 - SubscriberAppln - INFO - Topc:altitude	Content:36978	Time_interval:0.0002694129943847656
+2023-03-22 15:36:53,546 - SubscriberAppln - INFO - Topc:altitude	Content:31745	Time_interval:0.00040459632873535156
+2023-03-22 15:36:53,617 - SubscriberAppln - INFO - Topc:altitude	Content:20320	Time_interval:0.00020837783813476562
+2023-03-22 15:36:54,547 - SubscriberAppln - INFO - Topc:altitude	Content:4028	Time_interval:0.0002620220184326172
+2023-03-22 15:36:54,547 - SubscriberAppln - INFO - Topc:altitude	Content:27046	Time_interval:0.0003635883331298828
+2023-03-22 15:36:54,619 - SubscriberAppln - INFO - Topc:altitude	Content:27743	Time_interval:0.0002639293670654297
+2023-03-22 15:36:55,548 - SubscriberAppln - INFO - Topc:altitude	Content:10533	Time_interval:0.0002713203430175781
+2023-03-22 15:36:55,548 - SubscriberAppln - INFO - Topc:altitude	Content:25386	Time_interval:0.00043487548828125
+2023-03-22 15:36:55,620 - SubscriberAppln - INFO - Topc:altitude	Content:22177	Time_interval:0.00019669532775878906
+2023-03-22 15:36:56,549 - SubscriberAppln - INFO - Topc:altitude	Content:16303	Time_interval:0.00023365020751953125
+2023-03-22 15:36:56,549 - SubscriberAppln - INFO - Topc:altitude	Content:5992	Time_interval:0.00034332275390625
+2023-03-22 15:36:56,622 - SubscriberAppln - INFO - Topc:altitude	Content:18530	Time_interval:0.0013098716735839844
+2023-03-22 15:36:57,550 - SubscriberAppln - INFO - Topc:altitude	Content:31747	Time_interval:0.0007472038269042969
+2023-03-22 15:36:57,551 - SubscriberAppln - INFO - Topc:altitude	Content:22774	Time_interval:0.0013949871063232422
+2023-03-22 15:36:57,622 - SubscriberAppln - INFO - Topc:altitude	Content:12274	Time_interval:0.00022912025451660156
+2023-03-22 15:36:58,551 - SubscriberAppln - INFO - Topc:altitude	Content:28003	Time_interval:0.0002529621124267578
+2023-03-22 15:36:58,551 - SubscriberAppln - INFO - Topc:altitude	Content:38109	Time_interval:0.00037741661071777344
+2023-03-22 15:36:58,624 - SubscriberAppln - INFO - Topc:altitude	Content:21710	Time_interval:0.00019812583923339844
+2023-03-22 15:36:59,552 - SubscriberAppln - INFO - Topc:altitude	Content:36046	Time_interval:0.0002543926239013672
+2023-03-22 15:36:59,552 - SubscriberAppln - INFO - Topc:altitude	Content:8497	Time_interval:0.00036907196044921875
+2023-03-22 15:36:59,625 - SubscriberAppln - INFO - Topc:altitude	Content:37480	Time_interval:0.0007052421569824219
+2023-03-22 15:37:00,553 - SubscriberAppln - INFO - Topc:altitude	Content:30910	Time_interval:0.00024819374084472656
+2023-03-22 15:37:00,553 - SubscriberAppln - INFO - Topc:altitude	Content:6121	Time_interval:0.0003771781921386719
+2023-03-22 15:37:00,625 - SubscriberAppln - INFO - Topc:altitude	Content:32792	Time_interval:0.0002052783966064453
+2023-03-22 15:37:01,554 - SubscriberAppln - INFO - Topc:altitude	Content:26788	Time_interval:0.0002117156982421875
+2023-03-22 15:37:01,555 - SubscriberAppln - INFO - Topc:altitude	Content:27233	Time_interval:0.00034236907958984375
+2023-03-22 15:37:01,626 - SubscriberAppln - INFO - Topc:altitude	Content:8070	Time_interval:0.00020051002502441406
+2023-03-22 15:37:02,556 - SubscriberAppln - INFO - Topc:altitude	Content:11809	Time_interval:0.0001995563507080078

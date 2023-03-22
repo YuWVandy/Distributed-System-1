@@ -1,0 +1,74 @@
+2023-03-22 15:36:14,834 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,834 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,839 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,839 - PublisherAppln - INFO - PublisherAppln::configure
+2023-03-22 15:36:14,839 - PublisherAppln - INFO - PublisherMW::configure
+2023-03-22 15:36:14,845 - PublisherAppln - INFO - PublisherMW::configure completed
+2023-03-22 15:36:14,845 - PublisherAppln - INFO - PublisherAppln::configure - configuration complete
+2023-03-22 15:36:14,845 - PublisherAppln - INFO - PublisherAppln::driver
+2023-03-22 15:36:14,845 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,845 - PublisherAppln - INFO - PublisherAppln::dump
+2023-03-22 15:36:14,845 - PublisherAppln - INFO - ------------------------------
+2023-03-22 15:36:14,846 - PublisherAppln - INFO -      Name: pub11
+2023-03-22 15:36:14,846 - PublisherAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,846 - PublisherAppln - INFO -      Dissemination: Direct
+2023-03-22 15:36:14,846 - PublisherAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,846 - PublisherAppln - INFO -      TopicList: ['humidity']
+2023-03-22 15:36:14,846 - PublisherAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,846 - PublisherAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,846 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,846 - PublisherAppln - INFO - PublisherMW::event_loop - run the event loop
+2023-03-22 15:36:14,846 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:14,846 - PublisherAppln - INFO - PublisherMW::register
+2023-03-22 15:36:14,846 - PublisherAppln - INFO - PublisherMW::register - sent register message and now wait for reply
+2023-03-22 15:36:15,174 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,174 - PublisherAppln - INFO - PublisherAppln::register_response
+2023-03-22 15:36:15,174 - PublisherAppln - INFO - PublisherAppln::register_response - registration is a success
+2023-03-22 15:36:15,174 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,174 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:15,174 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:15,174 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,424 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,424 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:15,424 - PublisherAppln - INFO - PublisherAppln::driver - Not ready yet; check again
+2023-03-22 15:36:25,433 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:25,433 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:25,433 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:25,433 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,447 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:25,448 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:25,448 - PublisherAppln - INFO - PublisherAppln::driver - Not ready yet; check again
+2023-03-22 15:36:35,457 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:35,457 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:35,457 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:35,457 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:35,473 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:35,473 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:35,473 - PublisherAppln - INFO - PublisherAppln::driver - Not ready yet; check again
+2023-03-22 15:36:45,483 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:45,483 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:45,483 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:45,483 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:45,496 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:45,496 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:45,496 - PublisherAppln - INFO - PublisherAppln::driver - System ready; let's go!!
+2023-03-22 15:36:45,497 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:45,497 - PublisherAppln - INFO - PublisherAppln::invoke_operation - start Disseminating
+2023-03-22 15:36:45,497 - PublisherAppln - INFO - humidity:56.28343857039015:1679517405.4970868
+2023-03-22 15:36:46,497 - PublisherAppln - INFO - humidity:36.14714532333194:1679517406.497617
+2023-03-22 15:36:47,498 - PublisherAppln - INFO - humidity:58.82271215590341:1679517407.4987628
+2023-03-22 15:36:48,499 - PublisherAppln - INFO - humidity:79.76865831810909:1679517408.4998918
+2023-03-22 15:36:49,501 - PublisherAppln - INFO - humidity:43.345342382282084:1679517409.5010207
+2023-03-22 15:36:50,501 - PublisherAppln - INFO - humidity:68.1339951551623:1679517410.5017285
+2023-03-22 15:36:51,503 - PublisherAppln - INFO - humidity:71.44807548854723:1679517411.5030942
+2023-03-22 15:36:52,504 - PublisherAppln - INFO - humidity:90.15954582571023:1679517412.5042796
+2023-03-22 15:36:53,505 - PublisherAppln - INFO - humidity:31.989809965318084:1679517413.5054808
+2023-03-22 15:36:54,506 - PublisherAppln - INFO - humidity:91.52064480380459:1679517414.5066683
+2023-03-22 15:36:55,507 - PublisherAppln - INFO - humidity:69.74661926928621:1679517415.5078423
+2023-03-22 15:36:56,508 - PublisherAppln - INFO - humidity:77.25864400777131:1679517416.5089726
+2023-03-22 15:36:57,509 - PublisherAppln - INFO - humidity:51.48393283504507:1679517417.50962
+2023-03-22 15:36:58,510 - PublisherAppln - INFO - humidity:58.24358869857718:1679517418.510742
+2023-03-22 15:36:59,511 - PublisherAppln - INFO - humidity:18.140607578725273:1679517419.5118725
+2023-03-22 15:37:00,513 - PublisherAppln - INFO - humidity:68.66145087939913:1679517420.513
+2023-03-22 15:37:01,513 - PublisherAppln - INFO - humidity:15.223427032992891:1679517421.5136316
+2023-03-22 15:37:02,514 - PublisherAppln - INFO - humidity:99.17673005049026:1679517422.5147846

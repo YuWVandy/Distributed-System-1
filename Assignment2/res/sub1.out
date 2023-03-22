@@ -1,0 +1,43 @@
+2023-03-22 15:36:15,000 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:15,000 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:15,003 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:15,003 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-03-22 15:36:15,004 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-03-22 15:36:15,004 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - ------------------------------
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO -      Name: sub1
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO -      TopicList: ['light']
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO -      Frequency: 1
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - SubscriberMW::register
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,005 - SubscriberAppln - INFO - 2
+2023-03-22 15:36:15,006 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now now wait for reply
+2023-03-22 15:36:15,255 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,255 - SubscriberAppln - INFO - SubscriberAppln::register_response
+2023-03-22 15:36:15,255 - SubscriberAppln - INFO - SubscriberAppln::register_response - registration is a success
+2023-03-22 15:36:15,255 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,256 - SubscriberAppln - INFO - 1679517375.2559857
+2023-03-22 15:36:15,256 - SubscriberAppln - INFO - 63.2559859752655
+2023-03-22 15:36:15,256 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,256 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:15,256 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,734 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,735 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:15,735 - SubscriberAppln - INFO - SubscriberAppln::driver - System ready; let's connect to discovery for getting publisher information!!
+2023-03-22 15:36:15,735 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,735 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - start getting publisher information
+2023-03-22 15:36:15,735 - SubscriberAppln - INFO - ['light']
+2023-03-22 15:36:15,735 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - Find publisher completed
+2023-03-22 15:36:15,970 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,970 - SubscriberAppln - INFO - SubscriberMW::try to set the topic filtering
+2023-03-22 15:36:15,970 - SubscriberAppln - INFO - SubscriberMW::connect to publisher

@@ -1,0 +1,980 @@
+2023-03-22 15:36:14,884 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,884 - DiscoveryAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,890 - DiscoveryAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,890 - DiscoveryAppln - INFO - DiscoveryAppln::configure
+2023-03-22 15:36:14,890 - DiscoveryAppln - INFO - DiscoveryMW::configure
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - DiscoveryMW:: configure - finger table generation
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - [(6901241367425, 'disc13'), (20366619046715, 'disc18'), (21502160376427, 'disc17'), (51077673991799, 'disc16'), (59382408338863, 'disc10'), (62345904831672, 'disc7'), (88577042698706, 'disc3'), (97961326554925, 'disc4'), (103710743549045, 'disc1'), (115899221926483, 'disc14'), (123156555588195, 'disc19'), (123543562938736, 'disc2'), (134483861619322, 'disc9'), (135211542714645, 'disc11'), (150211187166660, 'disc5'), (177155221211057, 'disc6'), (178714392804652, 'disc12'), (215423440582976, 'disc15'), (216177654255326, 'disc8'), (260285193741610, 'disc20')]
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - {0: (135211542714645, 'disc11', '10.0.0.1', 5555), 1: (135211542714645, 'disc11', '10.0.0.1', 5555), 2: (135211542714645, 'disc11', '10.0.0.1', 5555), 3: (135211542714645, 'disc11', '10.0.0.1', 5555), 4: (135211542714645, 'disc11', '10.0.0.1', 5555), 5: (135211542714645, 'disc11', '10.0.0.1', 5555), 6: (135211542714645, 'disc11', '10.0.0.1', 5555), 7: (135211542714645, 'disc11', '10.0.0.1', 5555), 8: (135211542714645, 'disc11', '10.0.0.1', 5555), 9: (135211542714645, 'disc11', '10.0.0.1', 5555), 10: (135211542714645, 'disc11', '10.0.0.1', 5555), 11: (135211542714645, 'disc11', '10.0.0.1', 5555), 12: (135211542714645, 'disc11', '10.0.0.1', 5555), 13: (135211542714645, 'disc11', '10.0.0.1', 5555), 14: (135211542714645, 'disc11', '10.0.0.1', 5555), 15: (135211542714645, 'disc11', '10.0.0.1', 5555), 16: (135211542714645, 'disc11', '10.0.0.1', 5555), 17: (135211542714645, 'disc11', '10.0.0.1', 5555), 18: (135211542714645, 'disc11', '10.0.0.1', 5555), 19: (135211542714645, 'disc11', '10.0.0.1', 5555), 20: (135211542714645, 'disc11', '10.0.0.1', 5555), 21: (135211542714645, 'disc11', '10.0.0.1', 5555), 22: (135211542714645, 'disc11', '10.0.0.1', 5555), 23: (135211542714645, 'disc11', '10.0.0.1', 5555), 24: (135211542714645, 'disc11', '10.0.0.1', 5555), 25: (135211542714645, 'disc11', '10.0.0.1', 5555), 26: (135211542714645, 'disc11', '10.0.0.1', 5555), 27: (135211542714645, 'disc11', '10.0.0.1', 5555), 28: (135211542714645, 'disc11', '10.0.0.1', 5555), 29: (135211542714645, 'disc11', '10.0.0.1', 5555), 30: (135211542714645, 'disc11', '10.0.0.1', 5555), 31: (135211542714645, 'disc11', '10.0.0.1', 5555), 32: (135211542714645, 'disc11', '10.0.0.1', 5555), 33: (135211542714645, 'disc11', '10.0.0.1', 5555), 34: (135211542714645, 'disc11', '10.0.0.1', 5555), 35: (135211542714645, 'disc11', '10.0.0.1', 5555), 36: (135211542714645, 'disc11', '10.0.0.1', 5555), 37: (135211542714645, 'disc11', '10.0.0.1', 5555), 38: (135211542714645, 'disc11', '10.0.0.1', 5555), 39: (135211542714645, 'disc11', '10.0.0.1', 5555), 40: (150211187166660, 'disc5', '10.0.0.15', 5556), 41: (150211187166660, 'disc5', '10.0.0.15', 5556), 42: (150211187166660, 'disc5', '10.0.0.15', 5556), 43: (150211187166660, 'disc5', '10.0.0.15', 5556), 44: (177155221211057, 'disc6', '10.0.0.7', 5555), 45: (177155221211057, 'disc6', '10.0.0.7', 5555), 46: (215423440582976, 'disc15', '10.0.0.20', 5555), 47: (6901241367425, 'disc13', '10.0.0.10', 5555)}
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - DiscoveryMW::configure completed
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - DiscoveryAppln::configure - configuration complete
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - DiscoveryAppln::driver
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - **********************************
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - DiscoveryAppln::dump
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - ------------------------------
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO -      Name: disc9
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - **********************************
+2023-03-22 15:36:14,891 - DiscoveryAppln - INFO - DiscoveryMW::event_loop - run the event loop
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,336 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,337 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,354 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,369 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,387 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,387 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,387 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,387 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,387 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,387 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,387 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,387 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,387 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,387 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,388 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,388 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,404 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,404 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,404 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,404 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,404 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,404 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,404 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,404 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,404 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,405 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,405 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,405 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,419 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,419 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,419 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,419 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,419 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,419 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,419 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,419 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,419 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,420 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,420 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,420 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,436 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,451 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,451 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,451 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,452 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,452 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,452 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,452 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,452 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,452 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,452 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,452 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,452 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,466 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,481 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,497 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,515 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,530 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,547 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,561 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,575 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,590 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,591 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,606 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,606 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,606 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,606 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,607 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,607 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,607 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,607 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,607 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,607 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,607 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,607 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,622 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,623 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,640 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,657 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,673 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,687 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,701 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,715 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,730 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,730 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,730 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,730 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,730 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,730 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,731 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,731 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,731 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,731 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,731 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,731 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,744 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,759 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,774 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,789 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,805 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,820 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,834 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,834 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,835 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,835 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,835 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,835 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,835 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,835 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,835 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,835 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,835 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,835 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,850 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,850 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,850 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,850 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,850 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,850 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,850 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,850 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,850 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,851 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,851 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,851 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,867 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,881 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,882 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,898 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,898 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,898 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,898 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,898 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,899 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,899 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,899 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,899 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,899 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,899 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,899 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,914 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,928 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:15,943 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,398 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,399 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,412 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,412 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,412 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,412 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,413 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,413 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,413 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,413 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,413 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,413 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,413 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:25,413 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,443 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,443 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,443 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,443 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,444 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,444 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,444 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,444 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,444 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,444 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,444 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:25,444 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,488 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:25,502 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,537 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,583 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,584 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,598 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,598 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,598 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,599 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,599 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,599 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,599 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,599 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,599 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,599 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,599 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:25,599 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,627 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,627 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,627 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,627 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,627 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,627 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,627 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,627 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,627 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,627 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,628 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:25,628 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,680 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,680 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,680 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,680 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,680 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,680 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,681 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,681 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,681 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,681 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,681 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,681 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,695 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:25,696 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,724 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,725 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:25,767 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:25,780 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,811 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,860 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,860 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,860 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,861 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,861 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,861 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,861 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,861 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,861 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,861 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,861 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,861 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,876 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,876 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,876 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,876 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,876 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,877 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,877 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,877 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,877 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,877 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,877 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:25,877 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,902 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,902 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:25,902 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,902 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,902 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:25,902 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,903 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,903 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,903 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,903 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,903 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:25,903 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,951 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,951 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,951 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,951 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,951 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,951 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,951 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,951 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,951 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,951 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,952 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,952 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:25,969 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:35,436 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:35,469 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,523 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,614 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,614 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,614 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,614 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,615 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,615 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,615 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:35,615 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,615 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:35,615 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,615 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:35,615 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,653 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,654 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:35,720 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:35,787 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,804 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,900 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,900 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:35,900 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,900 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,900 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,901 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,901 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:35,901 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,901 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:35,901 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,901 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,901 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:35,923 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:35,924 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,459 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,459 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:45,459 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,459 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,459 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:45,459 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,460 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:45,460 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,460 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:45,460 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:45,460 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:45,460 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:45,493 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,634 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:45,635 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:45,745 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:45,830 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:45,948 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:45,948 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:45,948 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:45,948 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:45,949 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:45,949 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:45,949 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:45,949 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:45,949 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:45,949 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:45,949 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:45,949 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:55,485 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:55,485 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:55,485 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:55,486 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,486 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,486 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:55,486 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:55,486 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:55,486 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:55,486 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:55,486 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:55,486 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:55,656 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:55,657 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:55,855 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x14\x18\r']
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:55,856 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - DiscoveryMW::handle_reply
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - [b'disc2', b'', b'\x08\x02\x1a\x06\x08\x14\x10\x12\x18\r']
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - 5555
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - 20
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - 18
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - 13
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - 12
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - DiscoveryMW::is_ready
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - method2
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - 20:20
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - 18:20
+2023-03-22 15:36:55,971 - DiscoveryAppln - INFO - DiscoverMW:: is_read_Resp - notification sent

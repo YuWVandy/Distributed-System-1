@@ -1,0 +1,80 @@
+2023-03-22 15:36:14,885 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,885 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,888 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,888 - PublisherAppln - INFO - PublisherAppln::configure
+2023-03-22 15:36:14,889 - PublisherAppln - INFO - PublisherMW::configure
+2023-03-22 15:36:14,896 - PublisherAppln - INFO - PublisherMW::configure completed
+2023-03-22 15:36:14,896 - PublisherAppln - INFO - PublisherAppln::configure - configuration complete
+2023-03-22 15:36:14,896 - PublisherAppln - INFO - PublisherAppln::driver
+2023-03-22 15:36:14,896 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,896 - PublisherAppln - INFO - PublisherAppln::dump
+2023-03-22 15:36:14,896 - PublisherAppln - INFO - ------------------------------
+2023-03-22 15:36:14,896 - PublisherAppln - INFO -      Name: pub12
+2023-03-22 15:36:14,896 - PublisherAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,897 - PublisherAppln - INFO -      Dissemination: Direct
+2023-03-22 15:36:14,897 - PublisherAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,897 - PublisherAppln - INFO -      TopicList: ['altitude']
+2023-03-22 15:36:14,897 - PublisherAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,897 - PublisherAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,897 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,897 - PublisherAppln - INFO - PublisherMW::event_loop - run the event loop
+2023-03-22 15:36:14,897 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:14,897 - PublisherAppln - INFO - PublisherMW::register
+2023-03-22 15:36:14,897 - PublisherAppln - INFO - PublisherMW::register - sent register message and now wait for reply
+2023-03-22 15:36:15,213 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,213 - PublisherAppln - INFO - PublisherAppln::register_response
+2023-03-22 15:36:15,213 - PublisherAppln - INFO - PublisherAppln::register_response - registration is a success
+2023-03-22 15:36:15,213 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,213 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:15,213 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:15,213 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,565 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,565 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:15,565 - PublisherAppln - INFO - PublisherAppln::driver - Not ready yet; check again
+2023-03-22 15:36:25,573 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:25,573 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:25,573 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:25,573 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:25,588 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:25,588 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:25,588 - PublisherAppln - INFO - PublisherAppln::driver - System ready; let's go!!
+2023-03-22 15:36:25,588 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:25,588 - PublisherAppln - INFO - PublisherAppln::invoke_operation - start Disseminating
+2023-03-22 15:36:25,588 - PublisherAppln - INFO - altitude:29353:1679517385.5888937
+2023-03-22 15:36:26,589 - PublisherAppln - INFO - altitude:13171:1679517386.5896347
+2023-03-22 15:36:27,590 - PublisherAppln - INFO - altitude:5595:1679517387.5908043
+2023-03-22 15:36:28,591 - PublisherAppln - INFO - altitude:10630:1679517388.5919719
+2023-03-22 15:36:29,593 - PublisherAppln - INFO - altitude:19150:1679517389.5931177
+2023-03-22 15:36:30,593 - PublisherAppln - INFO - altitude:8155:1679517390.5936303
+2023-03-22 15:36:31,594 - PublisherAppln - INFO - altitude:12141:1679517391.5948105
+2023-03-22 15:36:32,596 - PublisherAppln - INFO - altitude:30091:1679517392.5959861
+2023-03-22 15:36:33,597 - PublisherAppln - INFO - altitude:8949:1679517393.5971828
+2023-03-22 15:36:34,597 - PublisherAppln - INFO - altitude:22477:1679517394.5976646
+2023-03-22 15:36:35,598 - PublisherAppln - INFO - altitude:16262:1679517395.5988295
+2023-03-22 15:36:36,600 - PublisherAppln - INFO - altitude:23804:1679517396.600022
+2023-03-22 15:36:37,601 - PublisherAppln - INFO - altitude:2040:1679517397.6011746
+2023-03-22 15:36:38,601 - PublisherAppln - INFO - altitude:29578:1679517398.6017237
+2023-03-22 15:36:39,603 - PublisherAppln - INFO - altitude:13550:1679517399.6031127
+2023-03-22 15:36:40,604 - PublisherAppln - INFO - altitude:28706:1679517400.6040866
+2023-03-22 15:36:41,604 - PublisherAppln - INFO - altitude:14515:1679517401.604778
+2023-03-22 15:36:42,605 - PublisherAppln - INFO - altitude:18299:1679517402.6056623
+2023-03-22 15:36:43,606 - PublisherAppln - INFO - altitude:21118:1679517403.6068087
+2023-03-22 15:36:44,607 - PublisherAppln - INFO - altitude:4984:1679517404.607949
+2023-03-22 15:36:45,609 - PublisherAppln - INFO - altitude:8802:1679517405.609123
+2023-03-22 15:36:46,609 - PublisherAppln - INFO - altitude:6005:1679517406.6097522
+2023-03-22 15:36:47,611 - PublisherAppln - INFO - altitude:35078:1679517407.6113346
+2023-03-22 15:36:48,612 - PublisherAppln - INFO - altitude:31419:1679517408.6126494
+2023-03-22 15:36:49,613 - PublisherAppln - INFO - altitude:32963:1679517409.6136563
+2023-03-22 15:36:50,614 - PublisherAppln - INFO - altitude:1846:1679517410.6148593
+2023-03-22 15:36:51,616 - PublisherAppln - INFO - altitude:10595:1679517411.6160412
+2023-03-22 15:36:52,617 - PublisherAppln - INFO - altitude:23029:1679517412.6172564
+2023-03-22 15:36:53,617 - PublisherAppln - INFO - altitude:20320:1679517413.6176574
+2023-03-22 15:36:54,618 - PublisherAppln - INFO - altitude:27743:1679517414.618814
+2023-03-22 15:36:55,620 - PublisherAppln - INFO - altitude:22177:1679517415.6200233
+2023-03-22 15:36:56,621 - PublisherAppln - INFO - altitude:18530:1679517416.6212277
+2023-03-22 15:36:57,622 - PublisherAppln - INFO - altitude:12274:1679517417.6226518
+2023-03-22 15:36:58,623 - PublisherAppln - INFO - altitude:21710:1679517418.6238225
+2023-03-22 15:36:59,625 - PublisherAppln - INFO - altitude:37480:1679517419.6250622
+2023-03-22 15:37:00,625 - PublisherAppln - INFO - altitude:32792:1679517420.6256292
+2023-03-22 15:37:01,626 - PublisherAppln - INFO - altitude:8070:1679517421.6267786
+2023-03-22 15:37:02,627 - PublisherAppln - INFO - altitude:1614:1679517422.6279235

@@ -1,0 +1,173 @@
+2023-03-22 15:36:15,005 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:15,005 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:15,009 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:15,009 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-03-22 15:36:15,010 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-03-22 15:36:15,010 - SubscriberAppln - INFO - SubscriberMW::configure completed
+2023-03-22 15:36:15,010 - SubscriberAppln - INFO - SubscriberAppln::configure - configuration complete
+2023-03-22 15:36:15,010 - SubscriberAppln - INFO - SubscriberAppln::driver
+2023-03-22 15:36:15,010 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,010 - SubscriberAppln - INFO - SubscriberAppln::dump
+2023-03-22 15:36:15,010 - SubscriberAppln - INFO - ------------------------------
+2023-03-22 15:36:15,010 - SubscriberAppln - INFO -      Name: sub16
+2023-03-22 15:36:15,010 - SubscriberAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO -      TopicList: ['location']
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO -      Frequency: 1
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO - **********************************
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO - SubscriberMW::event_loop - run the event loop
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO - SubscriberMW::register
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO - 2
+2023-03-22 15:36:15,011 - SubscriberAppln - INFO - SubscriberMW::register - sent register message and now now wait for reply
+2023-03-22 15:36:15,275 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,276 - SubscriberAppln - INFO - SubscriberAppln::register_response
+2023-03-22 15:36:15,276 - SubscriberAppln - INFO - SubscriberAppln::register_response - registration is a success
+2023-03-22 15:36:15,276 - SubscriberAppln - INFO - 1679517312.0
+2023-03-22 15:36:15,276 - SubscriberAppln - INFO - 1679517375.2760878
+2023-03-22 15:36:15,276 - SubscriberAppln - INFO - 63.27608776092529
+2023-03-22 15:36:15,276 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,276 - SubscriberAppln - INFO - SubscriberMW::is_ready
+2023-03-22 15:36:15,276 - SubscriberAppln - INFO - SubscriberMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,825 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,825 - SubscriberAppln - INFO - SubscriberAppln::isready_response
+2023-03-22 15:36:15,825 - SubscriberAppln - INFO - SubscriberAppln::driver - System ready; let's connect to discovery for getting publisher information!!
+2023-03-22 15:36:15,825 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation
+2023-03-22 15:36:15,825 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - start getting publisher information
+2023-03-22 15:36:15,825 - SubscriberAppln - INFO - ['location']
+2023-03-22 15:36:15,825 - SubscriberAppln - INFO - SubscriberAppln::invoke_operation - Find publisher completed
+2023-03-22 15:36:15,966 - SubscriberAppln - INFO - SubscriberMW::handle_reply
+2023-03-22 15:36:15,966 - SubscriberAppln - INFO - SubscriberMW::try to set the topic filtering
+2023-03-22 15:36:15,966 - SubscriberAppln - INFO - SubscriberMW::connect to publisher
+2023-03-22 15:36:16,344 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.00036787986755371094
+2023-03-22 15:36:16,457 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0002446174621582031
+2023-03-22 15:36:17,345 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0002551078796386719
+2023-03-22 15:36:17,459 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0002541542053222656
+2023-03-22 15:36:18,345 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00023627281188964844
+2023-03-22 15:36:18,460 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00021338462829589844
+2023-03-22 15:36:19,347 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00026798248291015625
+2023-03-22 15:36:19,461 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0002143383026123047
+2023-03-22 15:36:20,348 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00045037269592285156
+2023-03-22 15:36:20,462 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0007634162902832031
+2023-03-22 15:36:21,349 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00022363662719726562
+2023-03-22 15:36:21,463 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00025582313537597656
+2023-03-22 15:36:22,351 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.00040841102600097656
+2023-03-22 15:36:22,464 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0002338886260986328
+2023-03-22 15:36:23,352 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0002567768096923828
+2023-03-22 15:36:23,465 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.00025463104248046875
+2023-03-22 15:36:24,353 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0002498626708984375
+2023-03-22 15:36:24,467 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0002281665802001953
+2023-03-22 15:36:25,354 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0007915496826171875
+2023-03-22 15:36:25,403 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.00014257431030273438
+2023-03-22 15:36:25,467 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00037598609924316406
+2023-03-22 15:36:26,355 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0005059242248535156
+2023-03-22 15:36:26,405 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0003371238708496094
+2023-03-22 15:36:26,468 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0002770423889160156
+2023-03-22 15:36:27,356 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0002605915069580078
+2023-03-22 15:36:27,406 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0003192424774169922
+2023-03-22 15:36:27,470 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0007622241973876953
+2023-03-22 15:36:28,357 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00027370452880859375
+2023-03-22 15:36:28,407 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00022411346435546875
+2023-03-22 15:36:28,471 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0002491474151611328
+2023-03-22 15:36:29,359 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.00024771690368652344
+2023-03-22 15:36:29,408 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00022530555725097656
+2023-03-22 15:36:29,472 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.00024247169494628906
+2023-03-22 15:36:30,360 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.00024962425231933594
+2023-03-22 15:36:30,409 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.000232696533203125
+2023-03-22 15:36:30,473 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.00028514862060546875
+2023-03-22 15:36:31,361 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00030612945556640625
+2023-03-22 15:36:31,411 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0007345676422119141
+2023-03-22 15:36:31,474 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0002448558807373047
+2023-03-22 15:36:32,362 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0003204345703125
+2023-03-22 15:36:32,412 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0002429485321044922
+2023-03-22 15:36:32,476 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0002467632293701172
+2023-03-22 15:36:33,363 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.00031685829162597656
+2023-03-22 15:36:33,413 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0002593994140625
+2023-03-22 15:36:33,477 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00025343894958496094
+2023-03-22 15:36:34,364 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00027751922607421875
+2023-03-22 15:36:34,413 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.00027370452880859375
+2023-03-22 15:36:34,478 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0007617473602294922
+2023-03-22 15:36:35,365 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.00023031234741210938
+2023-03-22 15:36:35,415 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00027489662170410156
+2023-03-22 15:36:35,479 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00017404556274414062
+2023-03-22 15:36:36,365 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0002760887145996094
+2023-03-22 15:36:36,416 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0007734298706054688
+2023-03-22 15:36:36,480 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00024127960205078125
+2023-03-22 15:36:37,367 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0003218650817871094
+2023-03-22 15:36:37,416 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0002593994140625
+2023-03-22 15:36:37,482 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0006525516510009766
+2023-03-22 15:36:38,368 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0002944469451904297
+2023-03-22 15:36:38,418 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0003688335418701172
+2023-03-22 15:36:38,483 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0002467632293701172
+2023-03-22 15:36:39,369 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0002765655517578125
+2023-03-22 15:36:39,419 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00023984909057617188
+2023-03-22 15:36:39,484 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0002505779266357422
+2023-03-22 15:36:40,370 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00035262107849121094
+2023-03-22 15:36:40,420 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0008294582366943359
+2023-03-22 15:36:40,485 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0002543926239013672
+2023-03-22 15:36:41,371 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0008432865142822266
+2023-03-22 15:36:41,421 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0002765655517578125
+2023-03-22 15:36:41,485 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00026154518127441406
+2023-03-22 15:36:42,372 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00025463104248046875
+2023-03-22 15:36:42,422 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00028824806213378906
+2023-03-22 15:36:42,487 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0002269744873046875
+2023-03-22 15:36:43,373 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0002818107604980469
+2023-03-22 15:36:43,424 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.00034332275390625
+2023-03-22 15:36:43,488 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0002853870391845703
+2023-03-22 15:36:44,375 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0008053779602050781
+2023-03-22 15:36:44,425 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0002751350402832031
+2023-03-22 15:36:44,489 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.00029397010803222656
+2023-03-22 15:36:45,376 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0002541542053222656
+2023-03-22 15:36:45,425 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0003364086151123047
+2023-03-22 15:36:45,489 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0001728534698486328
+2023-03-22 15:36:46,377 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0002753734588623047
+2023-03-22 15:36:46,427 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0002536773681640625
+2023-03-22 15:36:46,491 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0003266334533691406
+2023-03-22 15:36:47,379 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0002682209014892578
+2023-03-22 15:36:47,428 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00036215782165527344
+2023-03-22 15:36:47,492 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00031638145446777344
+2023-03-22 15:36:48,381 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0009152889251708984
+2023-03-22 15:36:48,429 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0002384185791015625
+2023-03-22 15:36:48,493 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00026226043701171875
+2023-03-22 15:36:49,382 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0008604526519775391
+2023-03-22 15:36:49,429 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0002942085266113281
+2023-03-22 15:36:49,493 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0002961158752441406
+2023-03-22 15:36:50,383 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00035071372985839844
+2023-03-22 15:36:50,431 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00033974647521972656
+2023-03-22 15:36:50,495 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0008733272552490234
+2023-03-22 15:36:51,384 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0002655982971191406
+2023-03-22 15:36:51,432 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00028228759765625
+2023-03-22 15:36:51,496 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00022840499877929688
+2023-03-22 15:36:52,385 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.00029206275939941406
+2023-03-22 15:36:52,433 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00029659271240234375
+2023-03-22 15:36:52,497 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00026297569274902344
+2023-03-22 15:36:53,387 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0006620883941650391
+2023-03-22 15:36:53,434 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00031304359436035156
+2023-03-22 15:36:53,498 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.0002512931823730469
+2023-03-22 15:36:54,389 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0008096694946289062
+2023-03-22 15:36:54,435 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0003287792205810547
+2023-03-22 15:36:54,500 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00028967857360839844
+2023-03-22 15:36:55,389 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0003132820129394531
+2023-03-22 15:36:55,436 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00027108192443847656
+2023-03-22 15:36:55,501 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0002493858337402344
+2023-03-22 15:36:56,391 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0002646446228027344
+2023-03-22 15:36:56,437 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00036978721618652344
+2023-03-22 15:36:56,502 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.00023984909057617188
+2023-03-22 15:36:57,392 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0002815723419189453
+2023-03-22 15:36:57,438 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0009067058563232422
+2023-03-22 15:36:57,503 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.0002410411834716797
+2023-03-22 15:36:58,394 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0009496212005615234
+2023-03-22 15:36:58,439 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0003230571746826172
+2023-03-22 15:36:58,504 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00023865699768066406
+2023-03-22 15:36:59,395 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.000286102294921875
+2023-03-22 15:36:59,441 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0008244514465332031
+2023-03-22 15:36:59,505 - SubscriberAppln - INFO - Topc:location	Content:Europe	Time_interval:0.00031757354736328125
+2023-03-22 15:37:00,396 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00032782554626464844
+2023-03-22 15:37:00,441 - SubscriberAppln - INFO - Topc:location	Content:Asia	Time_interval:0.0002770423889160156
+2023-03-22 15:37:00,506 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.00023555755615234375
+2023-03-22 15:37:01,397 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00031566619873046875
+2023-03-22 15:37:01,443 - SubscriberAppln - INFO - Topc:location	Content:Australia	Time_interval:0.0003039836883544922
+2023-03-22 15:37:01,508 - SubscriberAppln - INFO - Topc:location	Content:America	Time_interval:0.00022983551025390625
+2023-03-22 15:37:02,509 - SubscriberAppln - INFO - Topc:location	Content:Africa	Time_interval:0.0002334117889404297

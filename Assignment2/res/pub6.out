@@ -1,0 +1,84 @@
+2023-03-22 15:36:14,794 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,794 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,797 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,798 - PublisherAppln - INFO - PublisherAppln::configure
+2023-03-22 15:36:14,798 - PublisherAppln - INFO - PublisherMW::configure
+2023-03-22 15:36:14,799 - PublisherAppln - INFO - PublisherMW::configure completed
+2023-03-22 15:36:14,799 - PublisherAppln - INFO - PublisherAppln::configure - configuration complete
+2023-03-22 15:36:14,799 - PublisherAppln - INFO - PublisherAppln::driver
+2023-03-22 15:36:14,799 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,799 - PublisherAppln - INFO - PublisherAppln::dump
+2023-03-22 15:36:14,799 - PublisherAppln - INFO - ------------------------------
+2023-03-22 15:36:14,799 - PublisherAppln - INFO -      Name: pub6
+2023-03-22 15:36:14,799 - PublisherAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,799 - PublisherAppln - INFO -      Dissemination: Direct
+2023-03-22 15:36:14,799 - PublisherAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,799 - PublisherAppln - INFO -      TopicList: ['location']
+2023-03-22 15:36:14,799 - PublisherAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,799 - PublisherAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,799 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,799 - PublisherAppln - INFO - PublisherMW::event_loop - run the event loop
+2023-03-22 15:36:14,799 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:14,799 - PublisherAppln - INFO - PublisherMW::register
+2023-03-22 15:36:14,800 - PublisherAppln - INFO - PublisherMW::register - sent register message and now wait for reply
+2023-03-22 15:36:15,154 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,154 - PublisherAppln - INFO - PublisherAppln::register_response
+2023-03-22 15:36:15,154 - PublisherAppln - INFO - PublisherAppln::register_response - registration is a success
+2023-03-22 15:36:15,154 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,154 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:15,154 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:15,154 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,342 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,342 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:15,342 - PublisherAppln - INFO - PublisherAppln::driver - System ready; let's go!!
+2023-03-22 15:36:15,342 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,342 - PublisherAppln - INFO - PublisherAppln::invoke_operation - start Disseminating
+2023-03-22 15:36:15,342 - PublisherAppln - INFO - location:Africa:1679517375.3428278
+2023-03-22 15:36:16,343 - PublisherAppln - INFO - location:Australia:1679517376.3439224
+2023-03-22 15:36:17,345 - PublisherAppln - INFO - location:Asia:1679517377.3451605
+2023-03-22 15:36:18,345 - PublisherAppln - INFO - location:Europe:1679517378.3456726
+2023-03-22 15:36:19,347 - PublisherAppln - INFO - location:Africa:1679517379.347029
+2023-03-22 15:36:20,348 - PublisherAppln - INFO - location:America:1679517380.3482423
+2023-03-22 15:36:21,349 - PublisherAppln - INFO - location:Europe:1679517381.3494895
+2023-03-22 15:36:22,350 - PublisherAppln - INFO - location:Asia:1679517382.3506556
+2023-03-22 15:36:23,351 - PublisherAppln - INFO - location:Asia:1679517383.3519478
+2023-03-22 15:36:24,353 - PublisherAppln - INFO - location:Africa:1679517384.3530903
+2023-03-22 15:36:25,353 - PublisherAppln - INFO - location:America:1679517385.3536935
+2023-03-22 15:36:26,355 - PublisherAppln - INFO - location:Africa:1679517386.3551612
+2023-03-22 15:36:27,356 - PublisherAppln - INFO - location:America:1679517387.3564408
+2023-03-22 15:36:28,357 - PublisherAppln - INFO - location:Africa:1679517388.3576307
+2023-03-22 15:36:29,358 - PublisherAppln - INFO - location:Australia:1679517389.3588448
+2023-03-22 15:36:30,360 - PublisherAppln - INFO - location:Asia:1679517390.359987
+2023-03-22 15:36:31,361 - PublisherAppln - INFO - location:Africa:1679517391.3612192
+2023-03-22 15:36:32,361 - PublisherAppln - INFO - location:Australia:1679517392.361821
+2023-03-22 15:36:33,363 - PublisherAppln - INFO - location:Australia:1679517393.3630154
+2023-03-22 15:36:34,364 - PublisherAppln - INFO - location:America:1679517394.3642125
+2023-03-22 15:36:35,365 - PublisherAppln - INFO - location:Asia:1679517395.3654141
+2023-03-22 15:36:36,365 - PublisherAppln - INFO - location:America:1679517396.3656945
+2023-03-22 15:36:37,367 - PublisherAppln - INFO - location:Asia:1679517397.3670726
+2023-03-22 15:36:38,368 - PublisherAppln - INFO - location:Europe:1679517398.3682427
+2023-03-22 15:36:39,369 - PublisherAppln - INFO - location:Europe:1679517399.369464
+2023-03-22 15:36:40,369 - PublisherAppln - INFO - location:Europe:1679517400.3696392
+2023-03-22 15:36:41,370 - PublisherAppln - INFO - location:Australia:1679517401.3708723
+2023-03-22 15:36:42,372 - PublisherAppln - INFO - location:Africa:1679517402.3723898
+2023-03-22 15:36:43,373 - PublisherAppln - INFO - location:Europe:1679517403.3736703
+2023-03-22 15:36:44,374 - PublisherAppln - INFO - location:Australia:1679517404.374923
+2023-03-22 15:36:45,376 - PublisherAppln - INFO - location:America:1679517405.376342
+2023-03-22 15:36:46,377 - PublisherAppln - INFO - location:Europe:1679517406.3775568
+2023-03-22 15:36:47,378 - PublisherAppln - INFO - location:Asia:1679517407.378739
+2023-03-22 15:36:48,380 - PublisherAppln - INFO - location:Australia:1679517408.3800166
+2023-03-22 15:36:49,381 - PublisherAppln - INFO - location:America:1679517409.3815672
+2023-03-22 15:36:50,383 - PublisherAppln - INFO - location:America:1679517410.3831272
+2023-03-22 15:36:51,384 - PublisherAppln - INFO - location:Asia:1679517411.3842936
+2023-03-22 15:36:52,385 - PublisherAppln - INFO - location:Asia:1679517412.3855085
+2023-03-22 15:36:53,386 - PublisherAppln - INFO - location:Africa:1679517413.3867261
+2023-03-22 15:36:54,388 - PublisherAppln - INFO - location:Asia:1679517414.388156
+2023-03-22 15:36:55,389 - PublisherAppln - INFO - location:Asia:1679517415.3895853
+2023-03-22 15:36:56,390 - PublisherAppln - INFO - location:Australia:1679517416.3907704
+2023-03-22 15:36:57,391 - PublisherAppln - INFO - location:Africa:1679517417.391937
+2023-03-22 15:36:58,393 - PublisherAppln - INFO - location:Africa:1679517418.3932064
+2023-03-22 15:36:59,394 - PublisherAppln - INFO - location:Africa:1679517419.3948004
+2023-03-22 15:37:00,396 - PublisherAppln - INFO - location:America:1679517420.3960748
+2023-03-22 15:37:01,397 - PublisherAppln - INFO - location:America:1679517421.3973908
+2023-03-22 15:37:02,397 - PublisherAppln - INFO - location:America:1679517422.3976293
+2023-03-22 15:37:03,398 - PublisherAppln - INFO - location:America:1679517423.3987865

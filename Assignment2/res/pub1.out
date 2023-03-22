@@ -1,0 +1,83 @@
+2023-03-22 15:36:14,956 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,957 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,972 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,972 - PublisherAppln - INFO - PublisherAppln::configure
+2023-03-22 15:36:14,973 - PublisherAppln - INFO - PublisherMW::configure
+2023-03-22 15:36:14,973 - PublisherAppln - INFO - PublisherMW::configure completed
+2023-03-22 15:36:14,973 - PublisherAppln - INFO - PublisherAppln::configure - configuration complete
+2023-03-22 15:36:14,973 - PublisherAppln - INFO - PublisherAppln::driver
+2023-03-22 15:36:14,973 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,974 - PublisherAppln - INFO - PublisherAppln::dump
+2023-03-22 15:36:14,974 - PublisherAppln - INFO - ------------------------------
+2023-03-22 15:36:14,974 - PublisherAppln - INFO -      Name: pub1
+2023-03-22 15:36:14,974 - PublisherAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,974 - PublisherAppln - INFO -      Dissemination: Direct
+2023-03-22 15:36:14,974 - PublisherAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,974 - PublisherAppln - INFO -      TopicList: ['weather']
+2023-03-22 15:36:14,974 - PublisherAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,974 - PublisherAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,974 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,974 - PublisherAppln - INFO - PublisherMW::event_loop - run the event loop
+2023-03-22 15:36:14,974 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:14,974 - PublisherAppln - INFO - PublisherMW::register
+2023-03-22 15:36:14,974 - PublisherAppln - INFO - PublisherMW::register - sent register message and now wait for reply
+2023-03-22 15:36:15,204 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,204 - PublisherAppln - INFO - PublisherAppln::register_response
+2023-03-22 15:36:15,204 - PublisherAppln - INFO - PublisherAppln::register_response - registration is a success
+2023-03-22 15:36:15,204 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,204 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:15,204 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:15,204 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,535 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,536 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:15,536 - PublisherAppln - INFO - PublisherAppln::driver - System ready; let's go!!
+2023-03-22 15:36:15,536 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,536 - PublisherAppln - INFO - PublisherAppln::invoke_operation - start Disseminating
+2023-03-22 15:36:15,536 - PublisherAppln - INFO - weather:sunny:1679517375.5361187
+2023-03-22 15:36:16,537 - PublisherAppln - INFO - weather:foggy:1679517376.5372212
+2023-03-22 15:36:17,537 - PublisherAppln - INFO - weather:sunny:1679517377.5376523
+2023-03-22 15:36:18,538 - PublisherAppln - INFO - weather:icy:1679517378.5388796
+2023-03-22 15:36:19,540 - PublisherAppln - INFO - weather:sunny:1679517379.5400124
+2023-03-22 15:36:20,541 - PublisherAppln - INFO - weather:foggy:1679517380.5411491
+2023-03-22 15:36:21,541 - PublisherAppln - INFO - weather:rainy:1679517381.5416203
+2023-03-22 15:36:22,542 - PublisherAppln - INFO - weather:foggy:1679517382.5422528
+2023-03-22 15:36:23,543 - PublisherAppln - INFO - weather:sunny:1679517383.5436628
+2023-03-22 15:36:24,544 - PublisherAppln - INFO - weather:foggy:1679517384.5448077
+2023-03-22 15:36:25,545 - PublisherAppln - INFO - weather:sunny:1679517385.5456228
+2023-03-22 15:36:26,546 - PublisherAppln - INFO - weather:cloudy:1679517386.5467365
+2023-03-22 15:36:27,547 - PublisherAppln - INFO - weather:cloudy:1679517387.5478776
+2023-03-22 15:36:28,549 - PublisherAppln - INFO - weather:icy:1679517388.5489879
+2023-03-22 15:36:29,549 - PublisherAppln - INFO - weather:rainy:1679517389.5496233
+2023-03-22 15:36:30,550 - PublisherAppln - INFO - weather:icy:1679517390.5507762
+2023-03-22 15:36:31,551 - PublisherAppln - INFO - weather:icy:1679517391.551955
+2023-03-22 15:36:32,553 - PublisherAppln - INFO - weather:sunny:1679517392.5531664
+2023-03-22 15:36:33,553 - PublisherAppln - INFO - weather:icy:1679517393.553614
+2023-03-22 15:36:34,554 - PublisherAppln - INFO - weather:icy:1679517394.5547328
+2023-03-22 15:36:35,555 - PublisherAppln - INFO - weather:rainy:1679517395.5558536
+2023-03-22 15:36:36,557 - PublisherAppln - INFO - weather:icy:1679517396.5569994
+2023-03-22 15:36:37,557 - PublisherAppln - INFO - weather:rainy:1679517397.557613
+2023-03-22 15:36:38,558 - PublisherAppln - INFO - weather:foggy:1679517398.5587282
+2023-03-22 15:36:39,559 - PublisherAppln - INFO - weather:foggy:1679517399.5598369
+2023-03-22 15:36:40,560 - PublisherAppln - INFO - weather:rainy:1679517400.560004
+2023-03-22 15:36:41,560 - PublisherAppln - INFO - weather:foggy:1679517401.5607805
+2023-03-22 15:36:42,561 - PublisherAppln - INFO - weather:rainy:1679517402.5616128
+2023-03-22 15:36:43,562 - PublisherAppln - INFO - weather:cloudy:1679517403.5627346
+2023-03-22 15:36:44,563 - PublisherAppln - INFO - weather:rainy:1679517404.5638788
+2023-03-22 15:36:45,565 - PublisherAppln - INFO - weather:icy:1679517405.5650218
+2023-03-22 15:36:46,565 - PublisherAppln - INFO - weather:cloudy:1679517406.5656435
+2023-03-22 15:36:47,566 - PublisherAppln - INFO - weather:rainy:1679517407.566753
+2023-03-22 15:36:48,567 - PublisherAppln - INFO - weather:cloudy:1679517408.56791
+2023-03-22 15:36:49,569 - PublisherAppln - INFO - weather:foggy:1679517409.5692322
+2023-03-22 15:36:50,569 - PublisherAppln - INFO - weather:sunny:1679517410.5696979
+2023-03-22 15:36:51,571 - PublisherAppln - INFO - weather:icy:1679517411.5711012
+2023-03-22 15:36:52,572 - PublisherAppln - INFO - weather:foggy:1679517412.572164
+2023-03-22 15:36:53,573 - PublisherAppln - INFO - weather:sunny:1679517413.573423
+2023-03-22 15:36:54,574 - PublisherAppln - INFO - weather:foggy:1679517414.574861
+2023-03-22 15:36:55,575 - PublisherAppln - INFO - weather:sunny:1679517415.5759704
+2023-03-22 15:36:56,577 - PublisherAppln - INFO - weather:icy:1679517416.5770757
+2023-03-22 15:36:57,577 - PublisherAppln - INFO - weather:foggy:1679517417.5776834
+2023-03-22 15:36:58,579 - PublisherAppln - INFO - weather:rainy:1679517418.5790186
+2023-03-22 15:36:59,580 - PublisherAppln - INFO - weather:sunny:1679517419.5801528
+2023-03-22 15:37:00,581 - PublisherAppln - INFO - weather:sunny:1679517420.581275
+2023-03-22 15:37:01,581 - PublisherAppln - INFO - weather:rainy:1679517421.5816276
+2023-03-22 15:37:02,582 - PublisherAppln - INFO - weather:cloudy:1679517422.5827696

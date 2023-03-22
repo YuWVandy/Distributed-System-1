@@ -1,0 +1,83 @@
+2023-03-22 15:36:14,984 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-03-22 15:36:14,984 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-03-22 15:36:14,988 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-03-22 15:36:14,988 - PublisherAppln - INFO - PublisherAppln::configure
+2023-03-22 15:36:14,988 - PublisherAppln - INFO - PublisherMW::configure
+2023-03-22 15:36:14,989 - PublisherAppln - INFO - PublisherMW::configure completed
+2023-03-22 15:36:14,989 - PublisherAppln - INFO - PublisherAppln::configure - configuration complete
+2023-03-22 15:36:14,989 - PublisherAppln - INFO - PublisherAppln::driver
+2023-03-22 15:36:14,989 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,989 - PublisherAppln - INFO - PublisherAppln::dump
+2023-03-22 15:36:14,989 - PublisherAppln - INFO - ------------------------------
+2023-03-22 15:36:14,989 - PublisherAppln - INFO -      Name: pub9
+2023-03-22 15:36:14,989 - PublisherAppln - INFO -      Lookup: Centralized
+2023-03-22 15:36:14,989 - PublisherAppln - INFO -      Dissemination: Direct
+2023-03-22 15:36:14,989 - PublisherAppln - INFO -      Num Topics: 1
+2023-03-22 15:36:14,989 - PublisherAppln - INFO -      TopicList: ['sound']
+2023-03-22 15:36:14,989 - PublisherAppln - INFO -      Iterations: 1000
+2023-03-22 15:36:14,989 - PublisherAppln - INFO -      Frequency: 1
+2023-03-22 15:36:14,989 - PublisherAppln - INFO - **********************************
+2023-03-22 15:36:14,989 - PublisherAppln - INFO - PublisherMW::event_loop - run the event loop
+2023-03-22 15:36:14,989 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:14,989 - PublisherAppln - INFO - PublisherMW::register
+2023-03-22 15:36:14,990 - PublisherAppln - INFO - PublisherMW::register - sent register message and now wait for reply
+2023-03-22 15:36:15,247 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,247 - PublisherAppln - INFO - PublisherAppln::register_response
+2023-03-22 15:36:15,247 - PublisherAppln - INFO - PublisherAppln::register_response - registration is a success
+2023-03-22 15:36:15,247 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,247 - PublisherAppln - INFO - PublisherAppln::invoke_operation - check if are ready to go
+2023-03-22 15:36:15,247 - PublisherAppln - INFO - PublisherMW::is_ready
+2023-03-22 15:36:15,248 - PublisherAppln - INFO - PublisherMW::is_ready - request sent and now wait for reply
+2023-03-22 15:36:15,692 - PublisherAppln - INFO - PublisherMW::handle_reply
+2023-03-22 15:36:15,692 - PublisherAppln - INFO - PublisherAppln::isready_response
+2023-03-22 15:36:15,692 - PublisherAppln - INFO - PublisherAppln::driver - System ready; let's go!!
+2023-03-22 15:36:15,692 - PublisherAppln - INFO - PublisherAppln::invoke_operation
+2023-03-22 15:36:15,692 - PublisherAppln - INFO - PublisherAppln::invoke_operation - start Disseminating
+2023-03-22 15:36:15,692 - PublisherAppln - INFO - sound:90:1679517375.692798
+2023-03-22 15:36:16,693 - PublisherAppln - INFO - sound:59:1679517376.693634
+2023-03-22 15:36:17,694 - PublisherAppln - INFO - sound:87:1679517377.6948292
+2023-03-22 15:36:18,695 - PublisherAppln - INFO - sound:69:1679517378.6954808
+2023-03-22 15:36:19,696 - PublisherAppln - INFO - sound:70:1679517379.6967256
+2023-03-22 15:36:20,697 - PublisherAppln - INFO - sound:71:1679517380.6976798
+2023-03-22 15:36:21,698 - PublisherAppln - INFO - sound:90:1679517381.6988611
+2023-03-22 15:36:22,700 - PublisherAppln - INFO - sound:50:1679517382.700119
+2023-03-22 15:36:23,701 - PublisherAppln - INFO - sound:54:1679517383.701314
+2023-03-22 15:36:24,701 - PublisherAppln - INFO - sound:84:1679517384.7016206
+2023-03-22 15:36:25,702 - PublisherAppln - INFO - sound:61:1679517385.702773
+2023-03-22 15:36:26,703 - PublisherAppln - INFO - sound:66:1679517386.7039793
+2023-03-22 15:36:27,705 - PublisherAppln - INFO - sound:48:1679517387.7051556
+2023-03-22 15:36:28,705 - PublisherAppln - INFO - sound:73:1679517388.7057037
+2023-03-22 15:36:29,707 - PublisherAppln - INFO - sound:66:1679517389.7071545
+2023-03-22 15:36:30,708 - PublisherAppln - INFO - sound:39:1679517390.7084582
+2023-03-22 15:36:31,709 - PublisherAppln - INFO - sound:38:1679517391.709617
+2023-03-22 15:36:32,710 - PublisherAppln - INFO - sound:71:1679517392.7107568
+2023-03-22 15:36:33,712 - PublisherAppln - INFO - sound:50:1679517393.7120059
+2023-03-22 15:36:34,713 - PublisherAppln - INFO - sound:32:1679517394.7131772
+2023-03-22 15:36:35,713 - PublisherAppln - INFO - sound:60:1679517395.7136242
+2023-03-22 15:36:36,714 - PublisherAppln - INFO - sound:90:1679517396.7148206
+2023-03-22 15:36:37,716 - PublisherAppln - INFO - sound:50:1679517397.7160141
+2023-03-22 15:36:38,717 - PublisherAppln - INFO - sound:89:1679517398.7171638
+2023-03-22 15:36:39,717 - PublisherAppln - INFO - sound:80:1679517399.7176247
+2023-03-22 15:36:40,718 - PublisherAppln - INFO - sound:32:1679517400.7188127
+2023-03-22 15:36:41,720 - PublisherAppln - INFO - sound:37:1679517401.720066
+2023-03-22 15:36:42,721 - PublisherAppln - INFO - sound:85:1679517402.7215445
+2023-03-22 15:36:43,722 - PublisherAppln - INFO - sound:88:1679517403.7228382
+2023-03-22 15:36:44,724 - PublisherAppln - INFO - sound:64:1679517404.7240183
+2023-03-22 15:36:45,725 - PublisherAppln - INFO - sound:59:1679517405.7252383
+2023-03-22 15:36:46,725 - PublisherAppln - INFO - sound:48:1679517406.7256258
+2023-03-22 15:36:47,726 - PublisherAppln - INFO - sound:51:1679517407.7267938
+2023-03-22 15:36:48,728 - PublisherAppln - INFO - sound:46:1679517408.7279928
+2023-03-22 15:36:49,729 - PublisherAppln - INFO - sound:35:1679517409.7293866
+2023-03-22 15:36:50,729 - PublisherAppln - INFO - sound:37:1679517410.7297735
+2023-03-22 15:36:51,730 - PublisherAppln - INFO - sound:71:1679517411.730936
+2023-03-22 15:36:52,732 - PublisherAppln - INFO - sound:92:1679517412.7321482
+2023-03-22 15:36:53,733 - PublisherAppln - INFO - sound:58:1679517413.7332888
+2023-03-22 15:36:54,733 - PublisherAppln - INFO - sound:87:1679517414.7336218
+2023-03-22 15:36:55,734 - PublisherAppln - INFO - sound:66:1679517415.7347658
+2023-03-22 15:36:56,735 - PublisherAppln - INFO - sound:52:1679517416.7359061
+2023-03-22 15:36:57,737 - PublisherAppln - INFO - sound:43:1679517417.7370553
+2023-03-22 15:36:58,737 - PublisherAppln - INFO - sound:43:1679517418.737767
+2023-03-22 15:36:59,738 - PublisherAppln - INFO - sound:59:1679517419.7389374
+2023-03-22 15:37:00,740 - PublisherAppln - INFO - sound:41:1679517420.740134
+2023-03-22 15:37:01,741 - PublisherAppln - INFO - sound:45:1679517421.7415226
+2023-03-22 15:37:02,742 - PublisherAppln - INFO - sound:45:1679517422.7426882
