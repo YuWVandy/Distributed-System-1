@@ -1,0 +1,26 @@
+2023-04-11 19:25:01,935 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-04-11 19:25:01,935 - SubscriberAppln - DEBUG - Main: parse command line arguments
+2023-04-11 19:25:01,939 - SubscriberAppln - DEBUG - Main: resetting log level to 20
+2023-04-11 19:25:01,939 - SubscriberAppln - INFO - SubscriberAppln::configure
+2023-04-11 19:25:01,940 - SubscriberAppln - INFO - SubscriberMW::configure
+2023-04-11 19:25:01,942 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:01,942 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:02,034 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:02,035 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:02,288 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:02,288 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:02,658 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:02,658 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:03,338 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:03,339 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:04,731 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:04,732 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:06,943 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:06,943 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:10,087 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:10,088 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:15,533 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:15,533 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:17,036 - kazoo.client - WARNING - Failed connecting to Zookeeper within the connection retry policy.
+2023-04-11 19:25:17,036 - kazoo.client - INFO - Zookeeper session closed, state: CLOSED
+2023-04-11 19:25:17,037 - SubscriberAppln - ERROR - Exception caught in main - Connection time-out

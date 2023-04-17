@@ -1,0 +1,45 @@
+2023-04-11 19:48:44,906 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-04-11 19:48:44,906 - DiscoveryAppln - DEBUG - Main: parse command line arguments
+2023-04-11 19:48:44,909 - DiscoveryAppln - DEBUG - Main: resetting log level to 20
+2023-04-11 19:48:44,909 - DiscoveryAppln - INFO - DiscoveryAppln::configure
+2023-04-11 19:48:44,909 - DiscoveryAppln - INFO - DiscoveryMW::configure
+2023-04-11 19:48:44,909 - DiscoveryAppln - INFO - DiscoveryMW::configure completed
+2023-04-11 19:48:44,911 - kazoo.client - INFO - Connecting to 10.0.0.1(10.0.0.1):2181, use_ssl: False
+2023-04-11 19:48:44,911 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:48:44,999 - kazoo.client - INFO - Connecting to 10.0.0.1(10.0.0.1):2181, use_ssl: False
+2023-04-11 19:48:44,999 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:48:45,207 - kazoo.client - INFO - Connecting to 10.0.0.1(10.0.0.1):2181, use_ssl: False
+2023-04-11 19:48:45,207 - kazoo.client - DEBUG - Sending request(xid=None): Connect(protocol_version=0, last_zxid_seen=0, time_out=10000, session_id=0, passwd=b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', read_only=None)
+2023-04-11 19:48:45,213 - kazoo.client - WARNING - Connection dropped: socket connection broken
+2023-04-11 19:48:45,490 - kazoo.client - INFO - Connecting to 10.0.0.1(10.0.0.1):2181, use_ssl: False
+2023-04-11 19:48:45,493 - kazoo.client - DEBUG - Sending request(xid=None): Connect(protocol_version=0, last_zxid_seen=0, time_out=10000, session_id=0, passwd=b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', read_only=None)
+2023-04-11 19:48:45,526 - kazoo.client - INFO - Zookeeper connection established, state: CONNECTED
+2023-04-11 19:48:45,527 - DiscoveryAppln - INFO - 1234
+2023-04-11 19:48:45,528 - kazoo.client - DEBUG - Sending request(xid=1): Create(path='/election/discovery', data=b'', acl=[ACL(perms=31, acl_list=['ALL'], id=Id(scheme='world', id='anyone'))], flags=0)
+2023-04-11 19:48:45,550 - kazoo.client - DEBUG - Received error(xid=1) NodeExistsError()
+2023-04-11 19:48:45,550 - DiscoveryAppln - WARNING - Node already exists: /election/discovery
+2023-04-11 19:48:45,551 - kazoo.client - DEBUG - Sending request(xid=2): Create(path='/election/discovery/candidate_', data=b'0', acl=[ACL(perms=31, acl_list=['ALL'], id=Id(scheme='world', id='anyone'))], flags=3)
+2023-04-11 19:48:45,565 - kazoo.client - DEBUG - Received response(xid=2): '/election/discovery/candidate_0000000054'
+2023-04-11 19:48:45,565 - kazoo.client - DEBUG - Sending request(xid=3): GetChildren(path='/election/discovery', watcher=None)
+2023-04-11 19:48:45,567 - kazoo.client - DEBUG - Received response(xid=3): ['candidate_0000000054']
+2023-04-11 19:48:45,567 - DiscoveryAppln - INFO - leader node is /election/discovery/candidate_0000000054
+2023-04-11 19:48:45,567 - DiscoveryAppln - INFO - leader path is /election/discovery/candidate_0000000054
+2023-04-11 19:48:45,567 - kazoo.client - DEBUG - Sending request(xid=4): SetData(path='/election/discovery/candidate_0000000054', data=b'localhost:5576', version=-1)
+2023-04-11 19:48:45,571 - kazoo.client - DEBUG - Received response(xid=4): ZnodeStat(czxid=492, mzxid=493, ctime=1681260525553, mtime=1681260525568, version=1, cversion=0, aversion=0, ephemeralOwner=72063189832499200, dataLength=14, numChildren=0, pzxid=492)
+2023-04-11 19:48:45,571 - DiscoveryAppln - INFO - i 0 am leader
+2023-04-11 19:48:45,571 - kazoo.client - DEBUG - Sending request(xid=5): GetChildren(path='/election/discovery', watcher=None)
+2023-04-11 19:48:45,572 - kazoo.client - DEBUG - Received response(xid=5): ['candidate_0000000054']
+2023-04-11 19:48:45,572 - DiscoveryAppln - INFO - 12313
+2023-04-11 19:48:45,572 - kazoo.client - DEBUG - Sending request(xid=6): GetData(path='/election/discovery/candidate_0000000054', watcher=<function DiscoveryMW.watch_leader.<locals>.watch_leader_event at 0x7f3aeab32310>)
+2023-04-11 19:48:45,574 - kazoo.client - DEBUG - Received response(xid=6): (b'localhost:5576', ZnodeStat(czxid=492, mzxid=493, ctime=1681260525553, mtime=1681260525568, version=1, cversion=0, aversion=0, ephemeralOwner=72063189832499200, dataLength=14, numChildren=0, pzxid=492))
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO - Current leader is localhost:5576
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO - DiscoveryxAppln::configure - configuration complete
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO - DiscoveryAppln::driver
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO - **********************************
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO - PublisherAppln::dump
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO - ------------------------------
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO -      Name: disc1
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO -      Entity Nums: 0
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO -      Iterations: 1000
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO - **********************************
+2023-04-11 19:48:45,574 - DiscoveryAppln - INFO - DiscoveryMW::event_loop - run the event loop

@@ -1,0 +1,22 @@
+2023-04-11 19:25:02,158 - root - INFO - Main - acquire a child logger and then log messages in the child
+2023-04-11 19:25:02,158 - PublisherAppln - DEBUG - Main: parse command line arguments
+2023-04-11 19:25:02,159 - PublisherAppln - DEBUG - Main: resetting log level to 20
+2023-04-11 19:25:02,159 - PublisherAppln - INFO - PublisherAppln::configure
+2023-04-11 19:25:02,159 - PublisherAppln - INFO - PublisherMW::configure
+2023-04-11 19:25:02,160 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:02,161 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:02,301 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:02,301 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:02,543 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:02,543 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:03,076 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:03,077 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:04,453 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:04,454 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:06,278 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:06,279 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:11,112 - kazoo.client - INFO - Connecting to localhost(127.0.0.1):2181, use_ssl: False
+2023-04-11 19:25:11,113 - kazoo.client - WARNING - Connection dropped: socket connection error: Connection refused
+2023-04-11 19:25:17,224 - kazoo.client - WARNING - Failed connecting to Zookeeper within the connection retry policy.
+2023-04-11 19:25:17,224 - kazoo.client - INFO - Zookeeper session closed, state: CLOSED
+2023-04-11 19:25:17,225 - PublisherAppln - ERROR - Exception caught in main - Connection time-out
